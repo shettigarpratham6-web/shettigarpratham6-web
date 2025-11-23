@@ -21,6 +21,8 @@
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![pyTk](https://img.shields.io/badge/Tkinter-FF6F00?style=for-the-badge)
+![pyttsx3](https://img.shields.io/badge/pyttsx3-TTS%20Engine-orange?style=for-the-badge&logo=python&logoColor=white)
+
 
 
 ![Pratham's GitHub Stats](https://github-readme-stats.vercel.app/api?username=shettigarpratham6-web&show_icons=true&theme=tokyonight)
