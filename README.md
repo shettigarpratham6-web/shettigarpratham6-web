@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0aa0ff&height=150&section=header&animation=twinkling" width="100%" />
+<img src="https://i.gifer.com/YgCz.gif" width="100%" />
 
 
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
