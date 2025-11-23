@@ -1,5 +1,4 @@
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&animation=twinkling" width="100%" >Pratham Shettigar</img>
+<img src="https://i.gifer.com/yy3.gif" width="100%" />
 
 
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
