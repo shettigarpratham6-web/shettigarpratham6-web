@@ -22,11 +22,14 @@
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![pyTk](https://img.shields.io/badge/Tkinter-FF6F00?style=for-the-badge)
 
-<!-- Live GitHub Stats -->
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shettigarpratham6-web&show_icons=true&theme=radical)
 
-<!-- Live Contribution Streak -->
-[![GitHub Streak](https://streak-stats.demolab.com/?user=shettigarpratham6-web&theme=radical)](https://git.io/streak-stats)
+![Pratham's GitHub Stats](https://github-readme-stats.vercel.app/api?username=shettigarpratham6-web&show_icons=true&theme=tokyonight)
+
+
+![GitHub Streak](https://streak-stats.demolab.com?user=shettigarpratham6-web&theme=tokyonight)
+
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shettigarpratham6-web&layout=compact&theme=tokyonight)
 
 
 
