@@ -1,4 +1,4 @@
-<img src="https://wallpaperaccess.com/full/268608.jpg" width="100%" />
+<img src="https://wallpapercave.com/wp/wp6603179.jpg" width="100%" />
 
 
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
