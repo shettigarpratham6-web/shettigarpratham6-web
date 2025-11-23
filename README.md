@@ -1,6 +1,6 @@
-## Hi there 👋
 
-## 🛠 Skills
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&text=Pratham%20Shettigar&fontSize=45&animation=fadeIn" />
+
 
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
