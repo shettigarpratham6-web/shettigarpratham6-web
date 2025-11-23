@@ -1,4 +1,4 @@
-<img src="https://imgs.search.brave.com/UcX6GKyo1LpwnU32FR8XKbXYAU5tWKxkys_SqH3hlGU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9jb2RlLWNvZGlu/Zy1wcm9ncmFtbWlu/Zy1zb2Z0d2FyZS1k/ZXZlbG9wbWVudF81/MjM0MDQtNjkzMi5q/cGc_c2VtdD1haXNf/aW5jb21pbmcmdz03/NDAmcT04MA" width="100%" />
+<img src="https://imgs.search.brave.com/UcX6GKyo1LpwnU32FR8XKbXYAU5tWKxkys_SqH3hlGU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9jb2RlLWNvZGlu/Zy1wcm9ncmFtbWlu/Zy1zb2Z0d2FyZS1k/ZXZlbG9wbWVudF81/MjM0MDQtNjkzMi5q/cGc_c2VtdD1haXNf/aW5jb21pbmcmdz03/NDAmcT04MA" width="100%" height="50%"/>
 
 
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
