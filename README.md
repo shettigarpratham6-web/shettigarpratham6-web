@@ -25,7 +25,7 @@
 
 
 
-![Pratham's GitHub Stats](https://github-readme-stats.vercel.app/api?username=shettigarpratham6-web&show_icons=true&theme=tokyonight)
+![Pratham's GitHub Stats](https://github-readme-stats.vercel.app/api?username=shettigarpratham6-web&show_icons=true&cache_seconds=1800&theme=tokyonight)
 
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=shettigarpratham6-web&theme=tokyonight)
