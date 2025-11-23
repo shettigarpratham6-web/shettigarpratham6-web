@@ -1,4 +1,4 @@
-<img src="https://i.gifer.com/yy3.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.svg" width="100%" />
 
 
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
