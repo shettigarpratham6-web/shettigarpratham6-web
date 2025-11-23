@@ -2,6 +2,12 @@
   <img src="https://wallpaperaccess.com/full/4711267.jpg" alt="Coding Vibe" width="100%" height="200">
 </p>
 
+<!-- Live GitHub Stats -->
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shettigarpratham6-web&show_icons=true&theme=radical)
+
+<!-- Live Contribution Streak -->
+[![GitHub Streak](https://streak-stats.demolab.com/?user=shettigarpratham6-web&theme=radical)](https://git.io/streak-stats)
+
 
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
