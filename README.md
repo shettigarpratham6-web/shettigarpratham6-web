@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://wallpaperaccess.com/full/4711267.jpg" alt="Coding Vibe" width="100%" height="300">
+  <img src="https://wallpaperaccess.com/full/4711267.jpg" alt="Coding Vibe" width="100%" height="200">
 </p>
 
 
