@@ -1,9 +1,5 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,60:0e3a5c,100:1565c0&height=200&section=header&text=Hi%20%F0%9F%91%8B%2C%20I%27m%20Pratham%20Shettigar&fontSize=42&fontColor=FFFFFF&animation=fadeIn&fontAlignY=40&desc=Aspiring%20Software%20Developer%20%7C%20Problem%20Solver%20%7C%20Tech%20Enthusiast&descSize=16&descAlignY=60&descColor=A0C4FF" width="100%"/>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=800&color=58A6FF&center=true&vCenter=true&repeat=true&width=650&lines=🚀+Turning+ideas+into+elegant+code...;💡+Building+solutions+that+matter...;🌱+Learning+something+new+every+day...;⚡+C%2B%2B+%7C+Python+%7C+React+%7C+Next.js" alt="Typing SVG"/>
-</p>
-
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## ⚡ Tech Stack
@@ -64,16 +60,9 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 📚 Currently Learning
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=1800&pause=500&color=58A6FF&center=true&vCenter=true&repeat=true&width=500&lines=📌+Data+Structures+%26+Algorithms;📌+Advanced+React;📌+Backend+Development" alt="Currently Learning"/>
-</p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" width="49%"/>
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" width="46%"/>
-</p>
+- Data Structures & Algorithms
+- Advanced React
+- Backend Development
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1565c0,100:0D1117&height=120&section=footer&animation=fadeIn" width="100%"/>
