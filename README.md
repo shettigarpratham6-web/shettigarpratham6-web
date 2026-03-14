@@ -1,152 +1,81 @@
-<div align="center">
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:0d1117&height=10&section=header" width="100%"/>
+</p>
 
-<!-- CAPSULE HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=venom&height=220&text=Pratham%20Shettigar&fontSize=60&color=0:0d1117,50:1a1a2e,100:16213e&fontColor=00d4ff&stroke=00d4ff&strokeWidth=1&animation=twinkling&desc=Aspiring%20Software%20Developer%20%7C%20Problem%20Solver%20%7C%20Tech%20Enthusiast&descSize=16&descAlignY=75&descAlign=50" width="100%"/>
+<p align="center">
+  <img src="https://wallpaperaccess.com/full/4711267.jpg" alt="Coding Vibe" width="100%" height="180"/>
+</p>
 
-<!-- TYPING ANIMATION -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=00D4FF&center=true&vCenter=true&multiline=false&repeat=true&width=600&lines=Hello+World!+I%27m+Pratham+%F0%9F%91%8B;Building+things+that+matter+%F0%9F%9A%80;C%2B%2B+%7C+Python+%7C+React+%7C+Next.js;Always+learning%2C+always+growing+%F0%9F%8C%B1" alt="Typing SVG" />
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=transparent&height=80&text=Hi%20%2C%20I%27m%20Pratham%20Shettigar&fontSize=42&fontColor=00d4ff&animation=fadeIn&fontAlignY=60" width="100%"/>
+</p>
 
-<br/>
-
-<!-- SOCIAL BADGES -->
-<a href="mailto:your@email.com">
-  <img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=00d4ff&labelColor=0d1117"/>
-</a>
-<a href="https://linkedin.com/in/yourprofile">
-  <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=00d4ff&labelColor=0d1117"/>
-</a>
-<a href="https://github.com/yourusername">
-  <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=00d4ff&labelColor=0d1117"/>
-</a>
-
-<br/><br/>
-
-<!-- PROFILE VIEWS + FOLLOWERS -->
-<img src="https://komarev.com/ghpvc/?username=yourusername&style=for-the-badge&color=00d4ff&labelColor=0d1117&label=PROFILE+VIEWS"/>
-<img src="https://img.shields.io/github/followers/yourusername?style=for-the-badge&color=00d4ff&labelColor=0d1117&label=FOLLOWERS"/>
-
-</div>
-
-<br/>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=00D4FF&center=true&vCenter=true&repeat=true&width=600&lines=Aspiring+Software+Developer;Problem+Solver;Tech+Enthusiast" alt="Typing SVG"/>
+</p>
 
 ---
 
-<!-- ABOUT ME — TERMINAL CARD -->
-<div align="center">
+## ⚡ Tech Stack
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║                    > whoami                                  ║
-║  ┌─────────────────────────────────────────────────────────┐ ║
-║  │  Name   : Pratham Shettigar                             │ ║
-║  │  Role   : Aspiring Software Developer                   │ ║
-║  │  Focus  : Full-Stack · DSA · Problem Solving            │ ║
-║  │  Mode   : Building · Learning · Exploring               │ ║
-║  │  Status : Open to Opportunities  ✦                      │ ║
-║  └─────────────────────────────────────────────────────────┘ ║
-╚══════════════════════════════════════════════════════════════╝
-```
+### 🖥️ Languages
 
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+</p>
 
----
+### 🎨 Frontend
 
-## ◈ Tech Universe
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+</p>
 
-<div align="center">
+### 🟨 JavaScript
 
-### ⬡ Core Languages
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
+</p>
 
-<img src="https://skillicons.dev/icons?i=c,cpp,python&theme=dark&perline=3" height="60"/>
+### 🐍 Python Libraries
 
-<br/>
-
-### ⬡ Frontend Craft
-
-<img src="https://skillicons.dev/icons?i=html,css,tailwind&theme=dark&perline=3" height="60"/>
-
-<br/>
-
-### ⬡ JavaScript Ecosystem
-
-<img src="https://skillicons.dev/icons?i=js,react,vite,nextjs&theme=dark&perline=4" height="60"/>
-
-<br/>
-
-### ⬡ Python Arsenal
-
-<img src="https://skillicons.dev/icons?i=numpy&theme=dark&perline=4" height="60"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Tkinter-FF6F00?style=for-the-badge&logo=python&logoColor=white"/>
-&nbsp;
-<img src="https://img.shields.io/badge/pyttsx3-TTS_Engine-orange?style=for-the-badge&logo=python&logoColor=white"/>
-
-<br/>
-
-### ⬡ Tools & Platforms
-
-<img src="https://skillicons.dev/icons?i=git,firebase,vscode&theme=dark&perline=3" height="60"/>
-
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tkinter-FF6F00?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/pyttsx3-TTS%20Engine-orange?style=for-the-badge&logo=python&logoColor=white"/>
+</p>
 
 ---
 
-## ◈ GitHub Pulse
+## 🛠️ Tools
 
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=midnight-purple&hide_border=true&background=0D1117&stroke=00d4ff&ring=00d4ff&fire=ff6b6b&currStreakNum=ffffff&currStreakLabel=00d4ff&sideNums=ffffff&sideLabels=00d4ff&dates=888888" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=midnight&hide_border=true&bg_color=0D1117&title_color=00d4ff&icon_color=00d4ff&text_color=ffffff&border_color=00d4ff" width="49%"/>
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&hide_border=true&theme=midnight&bg_color=0D1117&title_color=00d4ff&text_color=ffffff&langs_count=8" width="40%"/>
-
-</div>
-
----
-
-## ◈ Currently Leveling Up
-
-<div align="center">
-
-| ⚡ Skill | 📈 Progress | 🎯 Goal |
-|:---:|:---:|:---:|
-| Data Structures & Algorithms | `██████░░░░` 60% | Master Competitive DSA |
-| Advanced React | `████░░░░░░` 40% | State Management + Patterns |
-| Backend Development | `██░░░░░░░░` 20% | REST APIs + Databases |
-
-</div>
+<p align="center">
+  <a href="https://firebase.google.com/">
+    <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" width="40" height="40"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://git-scm.com/">
+    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="40" height="40"/>
+  </a>
+</p>
 
 ---
 
-## ◈ Activity Graph
+## 📚 Currently Learning
 
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=yourusername&theme=react-dark&hide_border=true&bg_color=0D1117&color=00d4ff&line=00d4ff&point=ffffff&area=true&area_color=00d4ff" width="100%"/>
-
-</div>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2000&pause=600&color=58A6FF&center=true&vCenter=true&repeat=true&width=500&lines=📌+Data+Structures+%26+Algorithms;📌+Advanced+React;📌+Backend+Development" alt="Learning"/>
+</p>
 
 ---
 
-## ◈ Random Dev Quote
-
-<div align="center">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=First%2C%20solve%20the%20problem.%20Then%2C%20write%20the%20code.&author=John%20Johnson" width="80%"/>
-
-</div>
-
----
-
-<!-- FOOTER WAVE -->
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:16213e,100:0d1117&section=footer&reversal=false"/>
-
-<sub>⚡ Crafted with curiosity & caffeine by <strong>Pratham Shettigar</strong> — <em>The journey of a thousand commits begins with a single push.</em></sub>
-
-</div>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:0d1117&height=100&section=footer&animation=fadeIn"/>
+</p>
