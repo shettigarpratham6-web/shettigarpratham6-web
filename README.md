@@ -125,45 +125,106 @@
 <!--                  CURRENTLY LEARNING                       -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<h2 align="center">
-  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"/>
-  &nbsp;Currently Learning
-</h2>
+<svg width="100%" viewBox="0 0 860 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
 
-<br/>
+    <!-- Animated shimmer gradient for main text -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#58A6FF"/>
+      <stop offset="30%"  stop-color="#A78BFA"/>
+      <stop offset="60%"  stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#58A6FF"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+        values="-1 0; 1 0; -1 0" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=1800&pause=500&color=58A6FF&center=true&vCenter=true&repeat=true&width=560&lines=📌+Data+Structures+%26+Algorithms;📌+Advanced+React;📌+Backend+Development" alt="Currently Learning"/>
-</p>
+    <!-- Glow filter -->
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
-<br/>
+    <!-- Soft glow for the underline -->
+    <filter id="lineGlow" x="-10%" y="-200%" width="120%" height="500%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
-<!-- GITHUB STATS -->
+    <!-- Animated gradient for underline -->
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#58A6FF" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#58A6FF"/>
+      <stop offset="50%"  stop-color="#A78BFA"/>
+      <stop offset="80%"  stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0"/>
+    </linearGradient>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+    <!-- Particle dot gradient -->
+    <radialGradient id="dotGrad">
+      <stop offset="0%"  stop-color="#A78BFA" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0"/>
+    </radialGradient>
 
-<br/>
+  </defs>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=tokyonight&hide_border=true&background=0D1117&stroke=1565c0&ring=58A6FF&fire=FF6B6B&currStreakNum=FFFFFF&currStreakLabel=58A6FF&sideNums=FFFFFF&sideLabels=58A6FF&dates=888888" width="49%"/>
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=FFFFFF" width="46%"/>
-</p>
+  <!-- Dark background pill -->
+  <rect x="0" y="0" width="860" height="120" rx="16" fill="#0D1117"/>
 
-<br/>
+  <!-- Floating particle dots (decorative) -->
+  <circle cx="60" cy="30" r="3" fill="url(#dotGrad)">
+    <animate attributeName="cy" values="30;22;30" dur="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="800" cy="88" r="2.5" fill="#34D399" opacity="0.5">
+    <animate attributeName="cy" values="88;80;88" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="820" cy="32" r="2" fill="#58A6FF" opacity="0.4">
+    <animate attributeName="cy" values="32;40;32" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="40" cy="90" r="2" fill="#A78BFA" opacity="0.5">
+    <animate attributeName="cy" values="90;82;90" dur="3.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3.6s" repeatCount="indefinite"/>
+  </circle>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yourusername&theme=react-dark&hide_border=true&bg_color=0D1117&color=58A6FF&line=1565c0&point=58A6FF&area=true&area_color=1565c0" width="100%"/>
-</p>
+  <!-- Animated book / flame emoji glow area -->
+  <text x="120" y="76" text-anchor="middle" font-size="46" font-family="Segoe UI Emoji, Apple Color Emoji, sans-serif" filter="url(#glow)">
+    📚
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 0 -4; 0 0" dur="2s" repeatCount="indefinite"/>
+  </text>
 
-<br/>
+  <!-- Main heading: "Currently Learning" with shimmer gradient -->
+  <text
+    x="460" y="68"
+    text-anchor="middle"
+    font-family="'Segoe UI', 'JetBrains Mono', 'Fira Code', monospace"
+    font-size="38"
+    font-weight="700"
+    fill="url(#textGrad)"
+    filter="url(#glow)"
+    letter-spacing="1"
+  >
+    Currently Learning
+  </text>
 
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--                   ANIMATED FOOTER                         -->
-<!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- Animated underline bar -->
+  <rect x="160" y="88" width="540" height="3" rx="2" fill="url(#lineGrad)" filter="url(#lineGlow)">
+    <animate attributeName="width" values="0;540;540" dur="1.2s" begin="0s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0.6;1" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1565c0,50:0e3a5c,100:0D1117&height=130&section=footer&animation=fadeIn" width="100%"/>
+  <!-- Tiny sparkle stars at ends of underline -->
+  <text x="160" y="94" font-size="10" fill="#58A6FF" opacity="0.9">✦</text>
+  <text x="692" y="94" font-size="10" fill="#34D399" opacity="0.9">✦</text>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=3500&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=600&lines=⭐+Thanks+for+visiting!+Let's+connect+and+build+something+amazing+together." alt="Footer"/>
-</p>
+</svg>
+
+
