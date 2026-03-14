@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,55 +8,83 @@
 
 <style>
 
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
 body{
-font-family:Arial;
+font-family:Arial, sans-serif;
 background:#0D1117;
 color:white;
-margin:0;
 display:flex;
 justify-content:center;
+align-items:center;
+min-height:100vh;
 }
 
 .container{
-margin-top: 20px;
-width:550px;
+width:90%;
+max-width:550px;
 text-align:center;
 }
 
+/* Header */
+
 header{
-padding:20px;
+padding:25px;
 background:#1565c0;
+border-radius:8px 8px 0 0;
 }
 
-h1{margin:0;font-size:22px}
-p{margin:4px 0;font-size:13px;color:#cbd5e1}
+h1{
+font-size:24px;
+margin-bottom:4px;
+}
+
+p{
+font-size:13px;
+color:#cbd5e1;
+}
+
+/* Sections */
 
 section{
 background:#161B22;
-margin:10px;
-padding:10px;
+margin-top:12px;
+padding:14px;
 border-radius:6px;
 border:1px solid #30363d;
 }
 
 h2{
 font-size:16px;
-margin:5px 0 10px;
+margin-bottom:10px;
 border-bottom:1px solid #1565c0;
+padding-bottom:5px;
 }
+
+/* Skills */
 
 .skills{
 display:flex;
 flex-wrap:wrap;
 justify-content:center;
-gap:6px;
+gap:8px;
 }
 
 .skill{
 border:1px solid #1565c0;
-padding:4px 8px;
-font-size:11px;
-border-radius:5px;
+padding:6px 10px;
+font-size:12px;
+border-radius:6px;
+transition:0.2s;
+}
+
+.skill:hover{
+background:#1565c0;
+transform:scale(1.05);
 }
 
 </style>
