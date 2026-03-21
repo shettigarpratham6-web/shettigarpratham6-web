@@ -1,5 +1,7 @@
 <h1 align="center">Hi 👋, I'm Pratham Shettigar</h1>
-<h3 align="center">Aspiring Software Developer</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/Aspiring%20Software%20Developer-000000?style=for-the-badge&logo=github&logoColor=white"/>
+</p>
 
 <p align="left">
   <a href="https://github.com/shettigarpratham6-web" target="_blank">
