@@ -7,7 +7,11 @@
   </a>
 </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=shettigarpratham6-web" alt="shettigarpratham6-web" /></a> </p>
+<p align="left">
+  <a href="https://github.com/shettigarpratham6-web">
+    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
 - 🌱 I’m currently learning **MERN stack web development ,Agentic AI ,Langchain , Problem Solving (DSA)**
 
