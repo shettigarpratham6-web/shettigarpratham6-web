@@ -15,7 +15,12 @@
 
 - 🌱 I’m currently learning **MERN stack web development ,Agentic AI ,Langchain , Problem Solving (DSA)**
 
-- 📫 How to reach me **shettigarpratham6@gmail.com**
+- 📫 How to reach me  
+<p>
+  <a href="mailto:shettigarpratham6@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
