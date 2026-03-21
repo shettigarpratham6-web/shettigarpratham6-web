@@ -1,5 +1,4 @@
- ![Profile Banner](Banner.png)
-[![Portfolio](portfolio1.png)](https://shettigarpratham6-web.github.io/shettigarpratham6-web/)
+
 
 
 <h1 align="center">Hi 👋, I'm Pratham Shettigar</h1>
