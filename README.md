@@ -1,11 +1,11 @@
-<h1 align="center">Hi 👋, I'm Pratham Shettigar</h1>
-<h3 align="center">Aspiring Software Developer</h3>
+<h1>Hi 👋, I'm Pratham Shettigar</h1>
+<h3>Aspiring Software Developer</h3>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=shettigarpratham6-web&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
+<p>
+  <img src="https://komarev.com/ghpvc/?username=shettigarpratham6-web&label=Profile%20views&color=0e75b6&style=flat" />
 </p>
 
-<p align="center">
+<p>
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=shettigarpratham6-web&theme=algolia&no-frame=true&margin-w=10&margin-h=10" />
   </a>
@@ -14,37 +14,34 @@
 ---
 
 ### 🌱 Currently Learning
-- **MERN Stack Web Development**
-- **Agentic AI**
-- **LangChain**
-- **Problem Solving (DSA)**
+- MERN Stack Web Development  
+- Agentic AI  
+- LangChain  
+- Problem Solving (DSA)
 
 ---
 
 ### 📫 Contact
-- **Email:** shettigarpratham6@gmail.com  
+- Email: shettigarpratham6@gmail.com  
 
 ---
 
 ### 🌐 Connect With Me
-<p align="center">
-  <a href="https://linkedin.com/in/prathamshettigar" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40"/>
+<p>
+  <a href="https://linkedin.com/in/prathamshettigar">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30"/>
   </a>
-  <a href="https://www.leetcode.com/_prathamshettigar-123" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" height="30" width="40"/>
+  <a href="https://www.leetcode.com/_prathamshettigar-123">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" height="30"/>
   </a>
-  <a href="https://auth.geeksforgeeks.org/user/shettigar0xtp" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" height="30" width="40"/>
+  <a href="https://auth.geeksforgeeks.org/user/shettigar0xtp">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" height="30"/>
   </a>
 </p>
 
 ---
 
-
-<h3 align="center">Languages and Tools:</h3>
-
-<p align="center">
+### 🛠️ Languages and Tools
 
 <!-- Languages -->
 <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
@@ -90,11 +87,8 @@
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
 <img src="https://img.shields.io/badge/Zapier-FF4A00?style=for-the-badge&logo=zapier&logoColor=white"/>
 
-</p>
-
 ---
 
 ### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=shettigarpratham6-web&show_icons=true&locale=en&layout=compact" />
-</p>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=shettigarpratham6-web&show_icons=true&locale=en&layout=compact" />
