@@ -29,12 +29,12 @@
 <a href="https://linkedin.com/in/prathamshettigar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="prathamshettigar" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/_prathamshettigar-123" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="_prathamshettigar-123" height="30" width="40" /></a>
 <a href="https://auth.geeksforgeeks.org/user/shettigar0xtp" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="shettigar0xtp" height="30" width="40" /></a>
-<a href="https://www.codewars.com/users/Pratham%40" target="blank">
+<a href="https://www.codewars.com/users/Pratham%40" target="_blank">
   <img align="center"
-       src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/codewars.svg"
+       src="https://cdn.simpleicons.org/codewars/B1361E"
        alt="Pratham@"
        height="30"
-       width="40" />
+       width="40"/>
 </a>
   
 </p>
