@@ -73,4 +73,10 @@
 
 </p>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=shettigarpratham6-web&show_icons=true&locale=en&layout=compact" alt="shettigarpratham6-web" /></p>
+<p>
+  <img 
+    align="center" 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=shettigarpratham6-web&layout=compact&langs_count=8&hide_border=true" 
+    alt="Top Languages" 
+  />
+</p>
