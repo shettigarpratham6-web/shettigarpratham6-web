@@ -73,10 +73,7 @@
 
 </p>
 
-<p>
-  <img 
-    align="center" 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=shettigarpratham6-web&layout=compact&langs_count=8&hide_border=true" 
-    alt="Top Languages" 
-  />
-</p>
+<img 
+  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shettigarpratham6-web&theme=tokyonight" 
+  alt="Top Languages" 
+/>
