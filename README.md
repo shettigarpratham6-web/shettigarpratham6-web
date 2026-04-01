@@ -72,5 +72,11 @@
 <img src="https://img.shields.io/badge/Zapier-FF4A00?style=for-the-badge&logo=zapier&logoColor=white"/>
 
 </p>
-![LangChain](https://img.shields.io/badge/LangChain-00C853?style=for-the-badge&logo=chainlink&logoColor=white)
+<p>
+  <img src="https://img.shields.io/badge/LangChain-00C853?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white"/>
+</p>
+
 
