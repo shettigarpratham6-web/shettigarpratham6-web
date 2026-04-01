@@ -72,5 +72,5 @@
 <img src="https://img.shields.io/badge/Zapier-FF4A00?style=for-the-badge&logo=zapier&logoColor=white"/>
 
 </p>
-
+![LangChain](https://img.shields.io/badge/LangChain-00C853?style=for-the-badge&logo=chainlink&logoColor=white)
 
