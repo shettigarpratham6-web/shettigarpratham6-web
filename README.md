@@ -25,18 +25,18 @@
 </p>
 
 <h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://linkedin.com/in/prathamshettigar" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40"/>
-  </a>
-  <a href="https://www.leetcode.com/_prathamshettigar-123" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" height="30" width="40"/>
-  </a>
-  <a href="https://auth.geeksforgeeks.org/user/shettigar0xtp" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" height="30" width="40"/>
-  </a>
-  <a href="https://www.codewars.com/users/Pratham%40" target="_blank">
-    <img src="https://cdn.simpleicons.org/codewars/B1361E" height="30" width="40"/>
+<p>
+  <a href="https://linkedin.com/in/prathamshettigar">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30"/>
+  </a>&nbsp;
+  <a href="https://www.leetcode.com/_prathamshettigar-123">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" height="30"/>
+  </a>&nbsp;
+  <a href="https://auth.geeksforgeeks.org/user/shettigar0xtp">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" height="30"/>
+  </a>&nbsp;
+  <a href="https://www.codewars.com/users/Pratham%40">
+    <img src="https://cdn.simpleicons.org/codewars/B1361E" height="30"/>
   </a>
 </p>
 
