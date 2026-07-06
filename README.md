@@ -4,6 +4,10 @@
   <img src="https://img.shields.io/badge/Aspiring%20Software%20Developer-000000?style=for-the-badge&logo=github&logoColor=white"/>
 </p>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=750&lines=Computer+Science+Engineering+Student;MERN+Stack+Developer;Agentic+AI+%7C+LangChain+%7C+LangGraph;Problem+Solver+%7C+DSA+Enthusiast;Always+Learning+New+Technologies" />
+</p>
+
 <p align="left">
   <a href="https://github.com/shettigarpratham6-web">
     <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white"/>
