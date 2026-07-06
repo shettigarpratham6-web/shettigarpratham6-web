@@ -1,7 +1,5 @@
  <h1 align="center">Hi 👋, I'm Pratham </h1>
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjEx.../giphy.gif" width="700"/>
-</p>
+
 <p align="center">
   <img src="https://img.shields.io/badge/Aspiring%20Software%20Developer-000000?style=for-the-badge&logo=github&logoColor=white"/>
 </p>
