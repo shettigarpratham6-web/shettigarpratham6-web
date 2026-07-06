@@ -105,38 +105,8 @@ Aspiring Software Developer | MERN Stack Developer | AI & Agentic AI Enthusiast
 
 ---
 
-# 📊 GitHub Statistics
 
-<p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=shettigarpratham6-web&show_icons=true&theme=tokyonight&hide_border=true"/>
 
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=shettigarpratham6-web&theme=tokyonight&hide_border=true"/>
 
-</p>
 
-<p align="center">
-
-<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shettigarpratham6-web&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</p>
-
----
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=shettigarpratham6-web&theme=tokyonight&margin-w=15&no-frame=true&row=1"/>
-
-</p>
-
----
-
-## 💡 Quote
-
-<p align="center">
-
-> **"First, solve the problem. Then, write the code." – John Johnson**
-
-</p>
