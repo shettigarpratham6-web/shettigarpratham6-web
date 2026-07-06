@@ -1,4 +1,4 @@
- <h1 align="center">Hi 👋, I'm Pratham Shettigar</h1>
+ <h1 align="center">Hi 👋, I'm Pratham </h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Aspiring%20Software%20Developer-000000?style=for-the-badge&logo=github&logoColor=white"/>
