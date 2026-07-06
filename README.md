@@ -26,18 +26,24 @@
 
 <h3 align="left">Connect with me:</h3>
 
-<p align="center">
+<p align="left">
   <a href="https://linkedin.com/in/prathamshettigar" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="35" width="35" />
+    <img src="https://cdn.simpleicons.org/linkedin/0A66C2" alt="LinkedIn" width="38" height="38"/>
   </a>
+  &nbsp;&nbsp;
+
   <a href="https://www.leetcode.com/_prathamshettigar-123" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="35" width="35" />
+    <img src="https://cdn.simpleicons.org/leetcode/FFA116" alt="LeetCode" width="38" height="38"/>
   </a>
+  &nbsp;&nbsp;
+
   <a href="https://auth.geeksforgeeks.org/user/shettigar0xtp" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="GeeksforGeeks" height="35" width="35" />
+    <img src="https://cdn.simpleicons.org/geeksforgeeks/2F8D46" alt="GeeksforGeeks" width="38" height="38"/>
   </a>
+  &nbsp;&nbsp;
+
   <a href="https://www.codewars.com/users/Pratham%40" target="_blank">
-    <img align="center" src="https://cdn.simpleicons.org/codewars/B1361E" alt="Codewars" height="35" width="35" />
+    <img src="https://cdn.simpleicons.org/codewars/B1361E" alt="Codewars" width="38" height="38"/>
   </a>
 </p>
 <h3 align="left">Languages and Tools:</h3>
