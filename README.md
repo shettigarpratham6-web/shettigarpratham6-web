@@ -97,7 +97,7 @@
     />
   </picture>
 </p>
-## 📅 Year Progress
+
 
 <!-- YEAR_PROGRESS_START -->
 ## 📅 Year Progress
