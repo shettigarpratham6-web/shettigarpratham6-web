@@ -2,15 +2,14 @@ from datetime import datetime
 import calendar
 import re
 
-# Get today's date
+# Current date
 today = datetime.now()
-
 year = today.year
 
-# Check leap year
+# Total days in the year
 days_in_year = 366 if calendar.isleap(year) else 365
 
-# Current day number
+# Current day of the year
 current_day = today.timetuple().tm_yday
 
 # Remaining days
@@ -22,16 +21,39 @@ percentage = (current_day / days_in_year) * 100
 # Progress bar
 bar_length = 30
 filled = round((current_day / days_in_year) * bar_length)
-
 progress_bar = "█" * filled + "░" * (bar_length - filled)
 
-content = f"""
-## 📅 Year Progress
+# Content to insert into README
+content = "\n".join([
+    "## 📅 Year Progress",
+    "",
+    "```text",
+    progress_bar,
+    "",
+    f"{percentage:.2f}% Complete",
+    "",
+    f"📆 {current_day}/{days_in_year} Days Completed",
+    f"⏳ {remaining_days} Days Remaining",
+    "```"
+])
 
-```text
-{progress_bar}
+# Read README
+with open("README.md", "r", encoding="utf-8") as file:
+    readme = file.read()
 
-{percentage:.2f}% Complete
+# Replace placeholder
+pattern = r'<!-- YEAR_PROGRESS_START -->(.*?)<!-- YEAR_PROGRESS_END -->'
 
-📆 {current_day}/{days_in_year} Days Completed
-⏳ {remaining_days} Days Remaining
+replacement = (
+    "<!-- YEAR_PROGRESS_START -->\n"
+    + content +
+    "\n<!-- YEAR_PROGRESS_END -->"
+)
+
+readme = re.sub(pattern, replacement, readme, flags=re.DOTALL)
+
+# Write updated README
+with open("README.md", "w", encoding="utf-8") as file:
+    file.write(readme)
+
+print("✅ README updated successfully!")
