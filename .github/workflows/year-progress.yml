@@ -1,0 +1,41 @@
+name: Update Year Progress
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # Runs every day at 12:00 AM UTC
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-year-progress:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run Year Progress Script
+        run: python scripts/year_progress.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "📅 Update Year Progress"
+            git push
+          fi
