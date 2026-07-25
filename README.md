@@ -105,9 +105,9 @@
 ```text
 █████████████████░░░░░░░░░░░░░
 
-56.16% Complete
+56.44% Complete
 
-📆 205/365 Days Completed
-⏳ 160 Days Remaining
+📆 206/365 Days Completed
+⏳ 159 Days Remaining
 ```
 <!-- YEAR_PROGRESS_END -->
