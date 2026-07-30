@@ -99,15 +99,4 @@
 </p>
 
 
-<!-- YEAR_PROGRESS_START -->
-## 📅 Year Progress
 
-```text
-█████████████████░░░░░░░░░░░░░
-
-57.81% Complete
-
-📆 211/365 Days Completed
-⏳ 154 Days Remaining
-```
-<!-- YEAR_PROGRESS_END -->
