@@ -14,7 +14,30 @@
   </a>
 </p>
 
-- 🌱 I’m currently learning **MERN stack web development, Agentic AI, Langchain, Problem Solving (DSA)**
+# Hey, I'm Pratham 👋
+
+### CSE Student • Fine Artist • Aspiring AI Engineer
+
+I enjoy building things where **technology, intelligence, and creativity come together**.
+
+Right now, I'm exploring **AI engineering** by building LLM applications, AI agents, and RAG systems.
+
+I'm moving beyond just making things work — I'm learning how to build AI applications that are **fast, reliable, scalable, and ready for the real world**.
+
+### 🔭 Currently Exploring
+
+- 🤖 AI Agents & Agentic Workflows
+- 🔎 Efficient & Production-Ready RAG
+- ⚡ AI Application Performance
+- 🏗️ System Design & Architecture
+- 🚀 Deployment & Scalability
+- 📊 Observability & Monitoring
+
+### 🎨 Outside the Code
+
+I'm also a **Fine Artist**. Creating art has taught me to look at things differently, experiment, and pay attention to details — skills I bring into the way I **think, design, and build software**.
+
+> **Build → Break → Learn → Improve → Ship 🚀**
 
 - 📫 How to reach me  
 
