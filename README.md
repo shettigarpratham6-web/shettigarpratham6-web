@@ -1,11 +1,11 @@
- <h1 align="center">Hi 👋, I'm Pratham </h1>
+<h1 align="center">Hi 👋, I'm Pratham</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Aspiring%20Software%20Developer-000000?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Aspiring%20AI%20Engineer-000000?style=for-the-badge&logo=github&logoColor=white"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=750&lines=Computer+Science+Engineering+Student;MERN+Stack+Developer;Agentic+AI+%7C+LangChain+%7C+LangGraph;Problem+Solver+%7C+DSA+Enthusiast;Always+Learning+New+Technologies" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=750&lines=Computer+Science+Engineering+Student;Fine+Artist;Aspiring+AI+Engineer;Agentic+AI+%7C+RAG+%7C+LLM+Applications;Problem+Solver+%7C+DSA+Enthusiast;Always+Learning+%26+Building" />
 </p>
 
 <p align="left">
@@ -14,7 +14,9 @@
   </a>
 </p>
 
-# Hey, I'm Pratham 👋
+---
+
+## 👨‍💻 About Me
 
 ### CSE Student • Fine Artist • Aspiring AI Engineer
 
@@ -39,7 +41,9 @@ I'm also a **Fine Artist**. Creating art has taught me to look at things differe
 
 > **Build → Break → Learn → Improve → Ship 🚀**
 
-- 📫 How to reach me  
+---
+
+## 📫 How to Reach Me
 
 <p>
   <a href="mailto:shettigarpratham6@gmail.com">
@@ -47,7 +51,7 @@ I'm also a **Fine Artist**. Creating art has taught me to look at things differe
   </a>
 </p>
 
-<h3 align="left">🌐 Connect with me</h3>
+## 🌐 Connect With Me
 
 <p align="left">
   <a href="https://linkedin.com/in/prathamshettigar" target="_blank">
@@ -66,9 +70,11 @@ I'm also a **Fine Artist**. Creating art has taught me to look at things differe
     <img src="https://img.shields.io/badge/-Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white" alt="Codewars"/>
   </a>
 </p>
-<h3 align="left">Languages and Tools:</h3>
+
+## 🛠️ Languages & Tools
 
 <p align="left">
+
 <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
 <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
 <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white"/>
@@ -96,6 +102,7 @@ I'm also a **Fine Artist**. Creating art has taught me to look at things differe
 
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
 <img src="https://img.shields.io/badge/Zapier-FF4A00?style=for-the-badge&logo=zapier&logoColor=white"/>
+
 </p>
 
 <p>
@@ -104,6 +111,9 @@ I'm also a **Fine Artist**. Creating art has taught me to look at things differe
   <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white"/>
 </p>
+
+---
+
 <p align="center">
   <picture>
     <source
@@ -120,6 +130,3 @@ I'm also a **Fine Artist**. Creating art has taught me to look at things differe
     />
   </picture>
 </p>
-
-
-
