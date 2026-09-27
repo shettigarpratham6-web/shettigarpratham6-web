@@ -20,26 +20,8 @@
 
 ### CSE Student • Fine Artist • Aspiring AI Engineer
 
-I enjoy building things where **technology, intelligence, and creativity come together**.
+I enjoy turning **curiosity into things that work**. I’m a Computer Science student focused on **AI Engineering**, building with LLMs, AI Agents, and RAG while exploring what it takes to make AI systems **reliable, efficient, scalable, and production-ready**. I’m also a **Fine Artist**, so creativity naturally shapes the way I approach technology, from solving problems to designing experiences. **I build with logic, think with creativity, and keep learning through every iteration.**
 
-Right now, I'm exploring **AI engineering** by building LLM applications, AI agents, and RAG systems.
-
-I'm moving beyond just making things work — I'm learning how to build AI applications that are **fast, reliable, scalable, and ready for the real world**.
-
-### 🔭 Currently Exploring
-
-- 🤖 AI Agents & Agentic Workflows
-- 🔎 Efficient & Production-Ready RAG
-- ⚡ AI Application Performance
-- 🏗️ System Design & Architecture
-- 🚀 Deployment & Scalability
-- 📊 Observability & Monitoring
-
-### 🎨 Outside the Code
-
-I'm also a **Fine Artist**. Creating art has taught me to look at things differently, experiment, and pay attention to details — skills I bring into the way I **think, design, and build software**.
-
-> **Build → Break → Learn → Improve → Ship 🚀**
 
 ---
 
