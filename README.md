@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Pratham</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Aspiring%20AI%20Engineer-000000?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/aspiring%20ai%20engineer-%23000000.svg?style=flat&logo=github&logoColor=white" alt="Aspiring AI Engineer"/>
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
 
 <p align="left">
   <a href="https://github.com/shettigarpratham6-web">
-    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white"/>
+    <img src="https://img.shields.io/badge/github-profile-%23181717.svg?style=flat&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </p>
 
@@ -20,38 +20,20 @@
 
 ### CSE Student • Fine Artist • Aspiring AI Engineer
 
-I enjoy turning **curiosity into things that work**. I’m a Computer Science student focused on **AI Engineering**, building with LLMs, AI Agents, and RAG while exploring what it takes to make AI systems **reliable, efficient, scalable, and production-ready**. I’m also a **Fine Artist**, so creativity naturally shapes the way I approach technology, from solving problems to designing experiences. **I build with logic, think with creativity, and keep learning through every iteration.**
-
+I enjoy turning **curiosity into things that work**. I'm a Computer Science student focused on **AI Engineering**, building with LLMs, AI Agents, and RAG while exploring what it takes to make AI systems **reliable, efficient, scalable, and production-ready**. I'm also a **Fine Artist**, so creativity naturally shapes the way I approach technology, from solving problems to designing experiences. **I build with logic, think with creativity, and keep learning through every iteration.**
 
 ---
 
 ## 📫 How to Reach Me
 
-<p>
-  <a href="mailto:shettigarpratham6@gmail.com">
-   [![Email](https://img.shields.io/badge/email-contact-%23EA4335.svg?style=flat&logo=gmail&logoColor=white)](mailto:your@email.com)
-  </a>
-</p>
+[![Email](https://img.shields.io/badge/email-contact-%23EA4335.svg?style=flat&logo=gmail&logoColor=white)](mailto:shettigarpratham6@gmail.com)
 
 ## 🌐 Connect With Me
 
-<p align="left">
-  <a href="https://linkedin.com/in/prathamshettigar" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-
-  <a href="https://www.leetcode.com/_prathamshettigar-123" target="_blank">
-    <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
-  </a>
-
-  <a href="https://auth.geeksforgeeks.org/user/shettigar0xtp" target="_blank">
-    <img src="https://img.shields.io/badge/-GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks"/>
-  </a>
-
-  <a href="https://www.codewars.com/users/Pratham%40" target="_blank">
-    <img src="https://img.shields.io/badge/-Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white" alt="Codewars"/>
-  </a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230A66C2.svg?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/prathamshettigar)
+[![LeetCode](https://img.shields.io/badge/leetcode-%23FFA116.svg?style=flat&logo=leetcode&logoColor=black)](https://www.leetcode.com/_prathamshettigar-123)
+[![GeeksforGeeks](https://img.shields.io/badge/geeksforgeeks-%232F8D46.svg?style=flat&logo=geeksforgeeks&logoColor=white)](https://auth.geeksforgeeks.org/user/shettigar0xtp)
+[![Codewars](https://img.shields.io/badge/codewars-%23B1361E.svg?style=flat&logo=codewars&logoColor=white)](https://www.codewars.com/users/Pratham%40)
 
 ## 🛠️ Languages & Tools
 
