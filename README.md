@@ -29,7 +29,7 @@ I enjoy turning **curiosity into things that work**. I’m a Computer Science st
 
 <p>
   <a href="mailto:shettigarpratham6@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white"/>
+   [![Email](https://img.shields.io/badge/email-contact-%23EA4335.svg?style=flat&logo=gmail&logoColor=white)](mailto:your@email.com)
   </a>
 </p>
 
