@@ -14,7 +14,7 @@
   </a>
 </p>
 
----
+
 
 ##  About Me
 
@@ -22,7 +22,7 @@
 
 I enjoy turning **curiosity into things that work**. I'm a Computer Science student focused on **AI Engineering**, building with LLMs, AI Agents, and RAG while exploring what it takes to make AI systems **reliable, efficient, scalable, and production-ready**. I'm also a **Fine Artist**, so creativity naturally shapes the way I approach technology, from solving problems to designing experiences. **I build with logic, think with creativity, and keep learning through every iteration.**
 
----
+
 
 ##  How to Reach Me
 
