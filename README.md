@@ -21,7 +21,7 @@
 
 I build AI systems that survive contact with production: **agents, RAG pipelines, and the evals that keep them honest.**
 
-I'm a Computer Science student who builds full-stack GenAI applications end to end — from the model and vector database to the API and the interface. I focus on making AI systems that keep working beyond the demo: accurate retrieval, proper evaluation, tracing, and reliable deployment.
+I'm a Computer Science student who builds full-stack GenAI applications end to end - from the model and vector database to the API and the interface. I focus on making AI systems that keep working beyond the demo: accurate retrieval, proper evaluation, tracing, and reliable deployment.
 
 
 ##  Languages & Tools
