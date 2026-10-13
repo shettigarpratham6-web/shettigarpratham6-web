@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="316" viewBox="0 0 500 316" role="img" aria-label="LeetCode progress">
+  <rect width="500" height="316" rx="14" fill="#0d1117"/>
+  <rect x="1" y="1" width="498" height="314" rx="13" fill="none" stroke="#30363d"/>
+  <text x="28" y="46" fill="#ffa116" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700">🟠 LeetCode Dashboard</text>
+  <text x="472" y="46" text-anchor="end" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5">@_prathamshettigar-123</text>
+  <line x1="28" y1="60" x2="472" y2="60" stroke="#30363d"/>
+  <g transform="translate(86,138)">
+    <circle r="44" fill="none" stroke="#161b22" stroke-width="10"/>
+    <circle r="44" fill="none" stroke="#ffa116" stroke-width="10" stroke-linecap="round"
+          stroke-dasharray="13.8 276.5" transform="rotate(-90)"/>
+    <text y="4" text-anchor="middle" fill="#c9d1d9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700">204</text>
+    <text y="20" text-anchor="middle" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5">solved</text>
+  </g>
+  <text x="170" y="106" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="600">PROGRESS BY DIFFICULTY</text>
+  <text x="170" y="118" fill="#22c55e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600">Easy</text>
+  <text x="472" y="118" text-anchor="end" fill="#c9d1d9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">133 <tspan fill="#8b949e">/ 971</tspan></text>
+  <rect x="170" y="126" width="300" height="10" rx="5" fill="#161b22" stroke="#30363d"/><rect x="170" y="126" width="41" height="10" rx="5" fill="#22c55e"/>
+  <text x="170" y="160" fill="#f59e0b" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600">Medium</text>
+  <text x="472" y="160" text-anchor="end" fill="#c9d1d9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">63 <tspan fill="#8b949e">/ 2,128</tspan></text>
+  <rect x="170" y="168" width="300" height="10" rx="5" fill="#161b22" stroke="#30363d"/><rect x="170" y="168" width="9" height="10" rx="5" fill="#f59e0b"/>
+  <text x="170" y="202" fill="#ef4444" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600">Hard</text>
+  <text x="472" y="202" text-anchor="end" fill="#c9d1d9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">8 <tspan fill="#8b949e">/ 982</tspan></text>
+  <rect x="170" y="210" width="300" height="10" rx="5" fill="#161b22" stroke="#30363d"/><rect x="170" y="210" width="2" height="10" rx="5" fill="#ef4444"/>
+  <a href="https://leetcode.com/_prathamshettigar-123" xmlns="http://www.w3.org/2000/svg">
+  <text x="28" y="250" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" text-decoration="underline">Global ranking: #853,431   ·   5.0% of all problems</text>
+  </a>
+  <text x="28" y="270" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Contests: no rated contests yet</text>
+  <text x="472" y="302" text-anchor="end" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9">live via leetcode.com public API</text>
+</svg>
