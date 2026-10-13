@@ -23,12 +23,6 @@ I build AI systems that survive contact with production: **agents, RAG pipelines
 
 I'm a Computer Science student who builds full-stack GenAI applications end to end — from the model and vector database to the API and the interface. I focus on making AI systems that keep working beyond the demo: accurate retrieval, proper evaluation, tracing, and reliable deployment.
 
-##  Tech Stack
-
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230A66C2.svg?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/prathamshettigar)
-[![LeetCode](https://img.shields.io/badge/leetcode-%23FFA116.svg?style=flat&logo=leetcode&logoColor=black)](https://www.leetcode.com/_prathamshettigar-123)
-[![GeeksforGeeks](https://img.shields.io/badge/geeksforgeeks-%232F8D46.svg?style=flat&logo=geeksforgeeks&logoColor=white)](https://auth.geeksforgeeks.org/user/shettigar0xtp)
-[![Codewars](https://img.shields.io/badge/codewars-%23B1361E.svg?style=flat&logo=codewars&logoColor=white)](https://www.codewars.com/users/Pratham%40)
 
 ##  Languages & Tools
 
