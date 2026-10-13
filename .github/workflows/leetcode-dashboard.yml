@@ -1,0 +1,44 @@
+name: Update LeetCode Dashboard
+
+"on":
+  schedule:
+    # Runs daily at 01:00 UTC
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: leetcode-dashboard
+  cancel-in-progress: true
+
+jobs:
+  update-dashboard:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch LeetCode Stats & Generate SVG
+        run: python scripts/generate_leetcode_svg.py
+        env:
+          LEETCODE_USERNAME: "_prathamshettigar-123"
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/leetcode-dashboard.svg
+          if git diff --staged --quiet; then
+            echo "No changes detected in LeetCode dashboard SVG. Skipping commit."
+          else
+            git commit -m "Update LeetCode dashboard SVG [skip ci]"
+            git push
+          fi

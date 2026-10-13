@@ -28,18 +28,13 @@ I'm a Computer Science student who builds full-stack GenAI applications end to e
 **Vector DB / Infra**
 ![Docker](https://img.shields.io/badge/docker-%232496ED.svg?style=flat&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232088FF.svg?style=flat&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05032.svg?style=flat&logo=git&logoColor=white) ![AWS](https://img.shields.io/badge/aws-%23FF9900.svg?style=flat&logo=amazonwebservices&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326CE5.svg?style=flat&logo=kubernetes&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DC382D.svg?style=flat&logo=redis&logoColor=white)
 
-
-
-
-
-
-
-## 📶 Coding Activity Dashboards
+## 🧩 LeetCode Dashboard
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shettigarpratham6-web/shettigarpratham6-web/main/assets/leetcode-dashboard.svg" alt="LeetCode progress dashboard" width="500" />
+  <a href="https://leetcode.com/_prathamshettigar-123" target="_blank" rel="noopener noreferrer">
+    <img src="assets/leetcode-dashboard.svg" alt="LeetCode Dashboard" width="820" />
+  </a>
 </p>
-
 
 ## 📈 Activity
 
