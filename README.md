@@ -8,6 +8,15 @@
   <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=750&lines=Computer+Science+Engineering+Student;Fine+Artist;Aspiring+AI+Engineer;Agentic+AI+%7C+RAG+%7C+LLM+Applications;Problem+Solver+%7C+DSA+Enthusiast;Always+Learning+%26+Building" alt="Typing intro" />
 </p>
 
+<p align="center">
+  <img
+    src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif"
+    alt="Animated coding"
+    width="450"
+  />
+</p>
+
+
 ## 🧠 About Me
 
 I build AI systems that survive contact with production: **agents, RAG pipelines, and the evals that keep them honest.**
