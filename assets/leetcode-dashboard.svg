@@ -42,11 +42,11 @@
     <g transform="translate(360, 2)">
       <rect width="168" height="24" rx="12" fill="#21262d" stroke="#30363d" stroke-width="1"/>
       <circle cx="12" cy="12" r="4" fill="#FFA116"/>
-      <text x="24" y="16.5" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600">Global Rank: <tspan fill="#FFA116">#848,894</tspan></text>
+      <text x="24" y="16.5" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600">Global Rank: <tspan fill="#FFA116">#849,343</tspan></text>
     </g>
 
     <!-- Last Updated Time -->
-    <text x="772" y="18" text-anchor="end" fill="#7d8590" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11">Updated 2026-10-14 05:46 UTC</text>
+    <text x="772" y="18" text-anchor="end" fill="#7d8590" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11">Updated 2026-10-15 05:32 UTC</text>
   </g>
 
   <line x1="24" y1="58" x2="796" y2="58" stroke="#21262d" stroke-width="1"/>
@@ -83,7 +83,7 @@
     <rect width="64" height="18" rx="9" fill="rgba(245, 158, 11, 0.15)" stroke="rgba(245, 158, 11, 0.3)" stroke-width="1"/>
     <text x="32" y="13" text-anchor="middle" fill="#f59e0b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700">Medium</text>
     <text x="78" y="14" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600">63 <tspan fill="#8b949e" font-weight="400">/ 2,128</tspan></text>
-    <text x="490" y="14" text-anchor="end" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11">3.0% · 393 subs</text>
+    <text x="490" y="14" text-anchor="end" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11">3.0% · 401 subs</text>
     <rect x="0" y="24" width="490" height="8" rx="4" fill="#21262d"/>
     <rect x="0" y="24" width="14" height="8" rx="4" fill="url(#med-grad)"/>
   </g>
@@ -104,7 +104,7 @@
   <!-- Heatmap Header -->
   <g transform="translate(40, 252)">
     <text x="0" y="11" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700">SUBMISSION ACTIVITY</text>
-    <text x="170" y="11" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11"><tspan fill="#39d353" font-weight="600">1,601</tspan> submissions in past year  ·  <tspan fill="#f0f6fc" font-weight="600">258</tspan> active days  ·  Current streak: <tspan fill="#FFA116" font-weight="600">38d</tspan>  ·  Max streak: <tspan fill="#f0f6fc">81d</tspan></text>
+    <text x="170" y="11" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11"><tspan fill="#39d353" font-weight="600">1,609</tspan> submissions in past year  ·  <tspan fill="#f0f6fc" font-weight="600">259</tspan> active days  ·  Current streak: <tspan fill="#FFA116" font-weight="600">39d</tspan>  ·  Max streak: <tspan fill="#f0f6fc">81d</tspan></text>
   </g>
 
   <!-- Heatmap Month Labels -->
@@ -500,8 +500,8 @@
     <rect x="744" y="296" width="10" height="10" rx="2" fill="#006d32" stroke="none"><title>2026-10-11: 4 submissions</title></rect>
     <rect x="744" y="309" width="10" height="10" rx="2" fill="#006d32" stroke="none"><title>2026-10-12: 4 submissions</title></rect>
     <rect x="744" y="322" width="10" height="10" rx="2" fill="#006d32" stroke="none"><title>2026-10-13: 5 submissions</title></rect>
-    <rect x="744" y="335" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.5"><title>2026-10-14: 0 submissions</title></rect>
-    <rect x="744" y="348" width="10" height="10" rx="2" fill="transparent" stroke="none"><title>2026-10-15: 0 submissions</title></rect>
+    <rect x="744" y="335" width="10" height="10" rx="2" fill="#26a641" stroke="none"><title>2026-10-14: 8 submissions</title></rect>
+    <rect x="744" y="348" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.5"><title>2026-10-15: 0 submissions</title></rect>
     <rect x="744" y="361" width="10" height="10" rx="2" fill="transparent" stroke="none"><title>2026-10-16: 0 submissions</title></rect>
     <rect x="744" y="374" width="10" height="10" rx="2" fill="transparent" stroke="none"><title>2026-10-17: 0 submissions</title></rect>
   </g>
