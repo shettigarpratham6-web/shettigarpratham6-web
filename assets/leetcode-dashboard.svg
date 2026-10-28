@@ -42,11 +42,11 @@
     <g transform="translate(360, 2)">
       <rect width="168" height="24" rx="12" fill="#21262d" stroke="#30363d" stroke-width="1"/>
       <circle cx="12" cy="12" r="4" fill="#FFA116"/>
-      <text x="24" y="16.5" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600">Global Rank: <tspan fill="#FFA116">#835,022</tspan></text>
+      <text x="24" y="16.5" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600">Global Rank: <tspan fill="#FFA116">#830,658</tspan></text>
     </g>
 
     <!-- Last Updated Time -->
-    <text x="772" y="18" text-anchor="end" fill="#7d8590" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11">Updated 2026-10-27 05:57 UTC</text>
+    <text x="772" y="18" text-anchor="end" fill="#7d8590" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11">Updated 2026-10-28 06:36 UTC</text>
   </g>
 
   <line x1="24" y1="58" x2="796" y2="58" stroke="#21262d" stroke-width="1"/>
@@ -61,7 +61,7 @@
     <circle cx="134" cy="150" r="44" fill="none" stroke="#f59e0b" stroke-width="9" stroke-dasharray="88.63 276.46" stroke-linecap="butt" transform="rotate(140.81 134 150)"/>
     <circle cx="134" cy="150" r="44" fill="none" stroke="#ef4444" stroke-width="9" stroke-dasharray="10.58 276.46" stroke-linecap="butt" transform="rotate(256.22 134 150)"/>
     <text x="134" y="147" text-anchor="middle" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700">209</text>
-    <text x="134" y="163" text-anchor="middle" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5">/ 4,095</text>
+    <text x="134" y="163" text-anchor="middle" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5">/ 4,096</text>
     <text x="134" y="192" text-anchor="middle" fill="#FFA116" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600">5.1% Solved</text>
   </g>
 
@@ -73,7 +73,7 @@
     <rect width="52" height="18" rx="9" fill="rgba(34, 197, 94, 0.15)" stroke="rgba(34, 197, 94, 0.3)" stroke-width="1"/>
     <text x="26" y="13" text-anchor="middle" fill="#22c55e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700">Easy</text>
     <text x="68" y="14" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600">134 <tspan fill="#8b949e" font-weight="400">/ 974</tspan></text>
-    <text x="490" y="14" text-anchor="end" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11">13.8% · 535 subs</text>
+    <text x="490" y="14" text-anchor="end" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11">13.8% · 541 subs</text>
     <rect x="0" y="24" width="490" height="8" rx="4" fill="#21262d"/>
     <rect x="0" y="24" width="67" height="8" rx="4" fill="url(#easy-grad)"/>
   </g>
@@ -82,7 +82,7 @@
   <g transform="translate(276, 134)">
     <rect width="64" height="18" rx="9" fill="rgba(245, 158, 11, 0.15)" stroke="rgba(245, 158, 11, 0.3)" stroke-width="1"/>
     <text x="32" y="13" text-anchor="middle" fill="#f59e0b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700">Medium</text>
-    <text x="78" y="14" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600">67 <tspan fill="#8b949e" font-weight="400">/ 2,135</tspan></text>
+    <text x="78" y="14" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600">67 <tspan fill="#8b949e" font-weight="400">/ 2,136</tspan></text>
     <text x="490" y="14" text-anchor="end" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11">3.1% · 453 subs</text>
     <rect x="0" y="24" width="490" height="8" rx="4" fill="#21262d"/>
     <rect x="0" y="24" width="15" height="8" rx="4" fill="url(#med-grad)"/>
@@ -104,7 +104,7 @@
   <!-- Heatmap Header -->
   <g transform="translate(40, 252)">
     <text x="0" y="11" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700">SUBMISSION ACTIVITY</text>
-    <text x="170" y="11" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11"><tspan fill="#39d353" font-weight="600">1,684</tspan> submissions in past year  ·  <tspan fill="#f0f6fc" font-weight="600">270</tspan> active days  ·  Current streak: <tspan fill="#FFA116" font-weight="600">1d</tspan>  ·  Max streak: <tspan fill="#f0f6fc">81d</tspan></text>
+    <text x="170" y="11" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11"><tspan fill="#39d353" font-weight="600">1,690</tspan> submissions in past year  ·  <tspan fill="#f0f6fc" font-weight="600">271</tspan> active days  ·  Current streak: <tspan fill="#FFA116" font-weight="600">2d</tspan>  ·  Max streak: <tspan fill="#f0f6fc">81d</tspan></text>
   </g>
 
   <!-- Heatmap Month Labels -->
@@ -498,8 +498,8 @@
     <rect x="731" y="374" width="10" height="10" rx="2" fill="#26a641" stroke="none"><title>2026-10-24: 6 submissions</title></rect>
     <rect x="744" y="296" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.5"><title>2026-10-25: 0 submissions</title></rect>
     <rect x="744" y="309" width="10" height="10" rx="2" fill="#26a641" stroke="none"><title>2026-10-26: 7 submissions</title></rect>
-    <rect x="744" y="322" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.5"><title>2026-10-27: 0 submissions</title></rect>
-    <rect x="744" y="335" width="10" height="10" rx="2" fill="transparent" stroke="none"><title>2026-10-28: 0 submissions</title></rect>
+    <rect x="744" y="322" width="10" height="10" rx="2" fill="#26a641" stroke="none"><title>2026-10-27: 6 submissions</title></rect>
+    <rect x="744" y="335" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.5"><title>2026-10-28: 0 submissions</title></rect>
     <rect x="744" y="348" width="10" height="10" rx="2" fill="transparent" stroke="none"><title>2026-10-29: 0 submissions</title></rect>
     <rect x="744" y="361" width="10" height="10" rx="2" fill="transparent" stroke="none"><title>2026-10-30: 0 submissions</title></rect>
     <rect x="744" y="374" width="10" height="10" rx="2" fill="transparent" stroke="none"><title>2026-10-31: 0 submissions</title></rect>
