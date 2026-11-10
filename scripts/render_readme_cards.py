@@ -142,8 +142,10 @@ def text_lines(x, y, lines, lh, attrs):
 # ---- 1 · hero -----------------------------------------------------------------
 def hero():
     h = 420
-    # Right-side embedded terminal pane - positioned with clean margin
-    tx, ty, tw, th = 465, 38, 375, 344
+    # Right-side embedded terminal pane coordinates
+    # IMPORTANT: Never attach CSS animations with 'transform' to an SVG element with transform="translate(...)".
+    # We use an unstyled outer <g transform="..."> so position is strictly immutable.
+    tx, ty, tw, th = 470, 38, 368, 344
     body = f"""
 <defs>
   <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0">
@@ -166,15 +168,15 @@ def hero():
   <text x="66" y="56" font-family="{MONO}" font-size="11.5" letter-spacing="1" fill="{MUTED}">COMPUTER SCIENCE · ASPIRING AI ENGINEER</text>
 </g>
 
-<!-- Scaled name with guaranteed clearance against right terminal -->
-<text class="r" {d(0.15)} x="44" y="152" font-family="{SERIF}" font-size="84" letter-spacing="-1.5" fill="{INK}">Pratham</text>
-<text class="r" {d(0.3)} x="44" y="234" font-family="{SERIF}" font-style="italic" font-size="84" letter-spacing="-1.5" fill="url(#shine)">Shettigar</text>
+<!-- Scaled name with 120px+ guaranteed clearance against right terminal -->
+<text class="r" {d(0.15)} x="48" y="152" font-family="{SERIF}" font-size="82" letter-spacing="-1.5" fill="{INK}">Pratham</text>
+<text class="r" {d(0.3)} x="48" y="232" font-family="{SERIF}" font-style="italic" font-size="82" letter-spacing="-1.5" fill="url(#shine)">Shettigar</text>
 
 <g class="r" {d(0.55)}>
-  {text_lines(48, 280, [
+  {text_lines(48, 278, [
       "I build AI systems that survive contact with production:",
       "agents, RAG pipelines, and full-stack systems."
-  ], 24, f'font-family="{SANS}" font-size="15.5" fill="{INK_SOFT}"')}
+  ], 24, f'font-family="{SANS}" font-size="15" fill="{INK_SOFT}"')}
 </g>
 
 <g class="f" {d(0.8)}>
@@ -182,40 +184,42 @@ def hero():
   <text class="nu" x="296" y="380" font-family="{MONO}" font-size="12.5" fill="{TECH}">&#8599;</text>
 </g>
 
-<!-- Right Column: Interactive Terminal Preview -->
-<g class="r" {d(0.35)} transform="translate({tx} {ty})" filter="url(#soft-shadow)">
-  <rect width="{tw}" height="{th}" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
-  <!-- Titlebar -->
-  <line x1="0" y1="32" x2="{tw}" y2="32" stroke="#21262d"/>
-  <circle cx="16" cy="16" r="4.5" fill="#ff5f56"/>
-  <circle cx="30" cy="16" r="4.5" fill="#ffbd2e"/>
-  <circle cx="44" cy="16" r="4.5" fill="#27c93f"/>
-  <text x="{tw / 2}" y="20" text-anchor="middle" font-family="{MONO}" font-size="11" fill="#7d8590">pratham@agent: ~/runtime</text>
+<!-- Right Column: Interactive Terminal Pane (Permanently anchored at tx={tx}) -->
+<g transform="translate({tx} {ty})">
+  <g class="f" {d(0.35)} filter="url(#soft-shadow)">
+    <rect width="{tw}" height="{th}" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+    <!-- Titlebar -->
+    <line x1="0" y1="32" x2="{tw}" y2="32" stroke="#21262d"/>
+    <circle cx="16" cy="16" r="4.5" fill="#ff5f56"/>
+    <circle cx="30" cy="16" r="4.5" fill="#ffbd2e"/>
+    <circle cx="44" cy="16" r="4.5" fill="#27c93f"/>
+    <text x="{tw / 2}" y="20" text-anchor="middle" font-family="{MONO}" font-size="11" fill="#7d8590">pratham@agent: ~/runtime</text>
 
-  <!-- Terminal Content Lines -->
-  <g font-family="{MONO}" font-size="11.5">
-    <!-- Prompt line -->
-    <text class="f" {d(0.6)} x="18" y="58" fill="#58a6ff">&gt; <tspan fill="#e6edf3">run</tspan> <tspan fill="#79c0ff">--target</tspan> <tspan fill="#a5d6ff">production</tspan></text>
+    <!-- Terminal Content Lines -->
+    <g font-family="{MONO}" font-size="11.5">
+      <!-- Prompt line -->
+      <text class="f" {d(0.6)} x="18" y="58" fill="#58a6ff">&gt; <tspan fill="#e6edf3">run</tspan> <tspan fill="#79c0ff">--target</tspan> <tspan fill="#a5d6ff">production</tspan></text>
 
-    <!-- Key values -->
-    <g class="f" {d(0.85)}>
-      <text x="18" y="88" fill="#7d8590">&#x2502; <tspan fill="#7ee787">status</tspan>       <tspan fill="#e6edf3">: ready to ship</tspan></text>
-      <circle class="live" cx="248" cy="85" r="3" fill="#3fb950"/>
+      <!-- Key values -->
+      <g class="f" {d(0.85)}>
+        <text x="18" y="88" fill="#7d8590">&#x2502; <tspan fill="#7ee787">status</tspan>       <tspan fill="#e6edf3">: ready to ship</tspan></text>
+        <circle class="live" cx="248" cy="85" r="3" fill="#3fb950"/>
+      </g>
+
+      <text class="f" {d(1.05)} x="18" y="114" fill="#7d8590">&#x2502; <tspan fill="#7ee787">specialty</tspan>    <tspan fill="#e6edf3">: Agentic AI &amp; RAG</tspan></text>
+      <text class="f" {d(1.25)} x="18" y="140" fill="#7d8590">&#x2502; <tspan fill="#7ee787">frameworks</tspan>   <tspan fill="#e6edf3">: LangGraph · Ollama</tspan></text>
+      <text class="f" {d(1.45)} x="18" y="166" fill="#7d8590">&#x2502; <tspan fill="#7ee787">languages</tspan>    <tspan fill="#e6edf3">: Python · C++ · TS</tspan></text>
+      <text class="f" {d(1.65)} x="18" y="192" fill="#7d8590">&#x2502; <tspan fill="#7ee787">fullstack</tspan>    <tspan fill="#e6edf3">: Next.js · Node · DBs</tspan></text>
+      <text class="f" {d(1.85)} x="18" y="218" fill="#7d8590">&#x2502; <tspan fill="#7ee787">evals</tspan>        <tspan fill="#e6edf3">: DeepEval · LangSmith</tspan></text>
+
+      <!-- Divider & Metrics -->
+      <line class="f" {d(2.05)} x1="18" y1="238" x2="{tw - 18}" y2="238" stroke="#21262d"/>
+      <text class="f" {d(2.2)} x="18" y="264" fill="#7d8590">&#x25C6; <tspan fill="#e6edf3">1.4k+ commits</tspan>  <tspan fill="#30363d">&#x2502;</tspan>  <tspan fill="#e6edf3">210+ LeetCode</tspan></text>
+      
+      <!-- Active prompt + blinking cursor -->
+      <text class="f" {d(2.4)} x="18" y="300" fill="#58a6ff">&gt; <tspan fill="#e6edf3">awaiting_input</tspan></text>
+      <rect class="live" x="156" y="289" width="7" height="13" fill="#58a6ff"/>
     </g>
-
-    <text class="f" {d(1.05)} x="18" y="114" fill="#7d8590">&#x2502; <tspan fill="#7ee787">specialty</tspan>    <tspan fill="#e6edf3">: Agentic AI &amp; RAG</tspan></text>
-    <text class="f" {d(1.25)} x="18" y="140" fill="#7d8590">&#x2502; <tspan fill="#7ee787">frameworks</tspan>   <tspan fill="#e6edf3">: LangGraph · Ollama</tspan></text>
-    <text class="f" {d(1.45)} x="18" y="166" fill="#7d8590">&#x2502; <tspan fill="#7ee787">languages</tspan>    <tspan fill="#e6edf3">: Python · C++ · TS</tspan></text>
-    <text class="f" {d(1.65)} x="18" y="192" fill="#7d8590">&#x2502; <tspan fill="#7ee787">fullstack</tspan>    <tspan fill="#e6edf3">: Next.js · Node · DBs</tspan></text>
-    <text class="f" {d(1.85)} x="18" y="218" fill="#7d8590">&#x2502; <tspan fill="#7ee787">evals</tspan>        <tspan fill="#e6edf3">: DeepEval · LangSmith</tspan></text>
-
-    <!-- Divider & Metrics -->
-    <line class="f" {d(2.05)} x1="18" y1="238" x2="{tw - 18}" y2="238" stroke="#21262d"/>
-    <text class="f" {d(2.2)} x="18" y="264" fill="#7d8590">&#x25C6; <tspan fill="#e6edf3">1.4k+ commits</tspan>  <tspan fill="#30363d">&#x2502;</tspan>  <tspan fill="#e6edf3">210+ LeetCode</tspan></text>
-    
-    <!-- Active prompt + blinking cursor -->
-    <text class="f" {d(2.4)} x="18" y="300" fill="#58a6ff">&gt; <tspan fill="#e6edf3">awaiting_input</tspan></text>
-    <rect class="live" x="156" y="289" width="7" height="13" fill="#58a6ff"/>
   </g>
 </g>
 """
@@ -427,48 +431,94 @@ def section_title(slug, text, italic, theme):
     write(f"title-{slug}-{theme}.svg", svg(W, 64, body, ["serif", "serif-i"], f"{text} {italic}", bottom=0))
 
 
-# ---- 7 · skills & stack card --------------------------------------------------
+# ---- 7 · skills & stack card with themed vector icons -------------------------
+# Vector icon paths designed on a 16x16 canvas
+TECH_ICONS = {
+    # AI & Agentic Systems
+    "LangChain": '<path d="M4 8a2 2 0 0 1 2-2h1.5a.75.75 0 0 0 0-1.5H6a3.5 3.5 0 0 0 0 7h1.5a.75.75 0 0 0 0-1.5H6a2 2 0 0 1-2-2zm4.5-.75a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5h-3zm2-3.75a.75.75 0 0 0 0 1.5H12a2 2 0 0 1 0 4h-1.5a.75.75 0 0 0 0 1.5H12a3.5 3.5 0 0 0 0-7h-1.5z"/>',
+    "LangGraph": '<circle cx="3.5" cy="4" r="2"/><circle cx="12.5" cy="4" r="2"/><circle cx="8" cy="12" r="2"/><path d="M5.2 4h5.6M4.5 5.7l2.5 4.8M11.5 5.7l-2.5 4.8" stroke="currentColor" stroke-width="1.3"/>',
+    "Ollama": '<path d="M3.5 2.5a1.5 1.5 0 0 1 1.5-1.5h6a1.5 1.5 0 0 1 1.5 1.5v11a1.5 1.5 0 0 1-1.5 1.5h-6a1.5 1.5 0 0 1-1.5-1.5v-11z" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M5.5 5.5l2 2.5-2 2.5M8.5 10.5h2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>',
+    "CrewAI": '<circle cx="8" cy="3.5" r="1.8"/><circle cx="3.5" cy="11.5" r="1.8"/><circle cx="12.5" cy="11.5" r="1.8"/><path d="M8 5.5v2.5m-2.2 2l-1.8 1m6.4-1l1.8 1" stroke="currentColor" stroke-width="1.2"/>',
+    "RAG": '<path d="M3 2a1 1 0 0 1 1-1h4.5l3.5 3.5V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2z" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="9.5" cy="9.5" r="2" fill="none" stroke="currentColor" stroke-width="1.2"/><line x1="11" y1="11" x2="13.5" y2="13.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>',
+    "DeepEval": '<circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="8" cy="8" r="3" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="8" cy="8" r="1.2"/>',
+    "LangSmith": '<path d="M1.5 8h2.5l2-4 3 8 2-5 1.5 2.5h2" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>',
+    "n8n": '<circle cx="4" cy="8" r="2"/><circle cx="12" cy="4.5" r="2"/><circle cx="12" cy="11.5" r="2"/><path d="M5.8 7.3l4.4-2.1m-4.4 3.5l4.4 2.1" stroke="currentColor" stroke-width="1.3"/>',
+
+    # Languages & Runtimes
+    "Python": '<path d="M7 1c-3 0-4 1.5-4 3v2h4v1H3c-1.8 0-3 1.2-3 3s1.2 3 3 3h1v-1.5c0-1.5 1-2.5 2.5-2.5h4c1.5 0 2.5-1 2.5-2.5V4c0-1.5-1-3-4-3H7zm-1.5 1.5a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5zM9 15c3 0 4-1.5 4-3v-2H9v-1h4c1.8 0 3-1.2 3-3s-1.2-3-3-3h-1v1.5c0 1.5-1 2.5-2.5 2.5H5.5C4 7 3 8 3 9.5V12c0 1.5 1 3 4 3h2zm1.5-1.5a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5z"/>',
+    "C++": '<path d="M6 4a4.5 4.5 0 1 0 0 8c1.8 0 3-1 3.5-2h-1.8a2.5 2.5 0 1 1 0-4h1.8c-.5-1-1.7-2-3.5-2z"/><path d="M9.5 7h1v-1h1v1h1v1h-1v1h-1V8h-1V7zm3.2 0h1v-1h1v1h1v1h-1v1h-1V8h-1V7z"/>',
+    "TypeScript": '<rect x="1.5" y="1.5" width="13" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M4 6h4m-2 0v5.5m3-2.5c.4.6 1 .9 1.8.9.8 0 1.3-.4 1.3-1 0-1.2-2.2-.9-2.2-2.2 0-.8.6-1.3 1.5-1.3.8 0 1.3.3 1.7.8" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>',
+    "JavaScript": '<rect x="1.5" y="1.5" width="13" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M5.5 10c.3.8.8 1.2 1.5 1.2.8 0 1.3-.5 1.3-1.4V6m2.5 3.5c.4.6 1 .9 1.8.9.8 0 1.3-.4 1.3-1 0-1.2-2.2-.9-2.2-2.2 0-.8.6-1.3 1.5-1.3.8 0 1.3.3 1.7.8" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>',
+    "C#": '<path d="M6 4a4.5 4.5 0 1 0 0 8c1.8 0 3-1 3.5-2h-1.8a2.5 2.5 0 1 1 0-4h1.8c-.5-1-1.7-2-3.5-2z"/><path d="M10 5.5l-.5 5m2-5l-.5 5m-2.2-3.5h3m-3.3 2h3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>',
+    "SQL": '<ellipse cx="8" cy="4" rx="5" ry="1.8" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M3 4v4c0 1 2.2 1.8 5 1.8s5-.8 5-1.8V4m-10 4v4c0 1 2.2 1.8 5 1.8s5-.8 5-1.8V8" fill="none" stroke="currentColor" stroke-width="1.2"/>',
+    "Node.js": '<path d="M8 1.5l5.5 3.2v6.4L8 14.5 2.5 11.1V4.7L8 1.5z" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M5.5 10.5V5.5l5 5V5.5" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>',
+    "Git": '<circle cx="4" cy="8" r="2"/><circle cx="12" cy="4" r="2"/><circle cx="12" cy="12" r="2"/><path d="M6 8h3m1-2.5v5" stroke="currentColor" stroke-width="1.3"/>',
+
+    # Web, Data & Cloud
+    "Next.js": '<circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M5.5 5v6m0 0l5.8-6.5M11.5 8.5v3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>',
+    "React": '<ellipse cx="8" cy="8" rx="6.5" ry="2.6" fill="none" stroke="currentColor" stroke-width="1.1" transform="rotate(30 8 8)"/><ellipse cx="8" cy="8" rx="6.5" ry="2.6" fill="none" stroke="currentColor" stroke-width="1.1" transform="rotate(90 8 8)"/><ellipse cx="8" cy="8" rx="6.5" ry="2.6" fill="none" stroke="currentColor" stroke-width="1.1" transform="rotate(150 8 8)"/><circle cx="8" cy="8" r="1.3"/>',
+    "Docker": '<path d="M1 9.5c.5-1.5 2-2 3.5-2h7c1.5 0 3 .8 3.5 2-1 .5-2 1-3.5 1H4.5C3 10.5 2 10 1 9.5z"/><rect x="4.5" y="5.5" width="1.8" height="1.5" rx=".3"/><rect x="7" y="5.5" width="1.8" height="1.5" rx=".3"/><rect x="9.5" y="5.5" width="1.8" height="1.5" rx=".3"/><rect x="7" y="3.5" width="1.8" height="1.5" rx=".3"/><rect x="9.5" y="3.5" width="1.8" height="1.5" rx=".3"/>',
+    "Redis": '<path d="M8 2.5L2.5 5.2 8 8l5.5-2.8L8 2.5z"/><path d="M2.5 7.8L8 10.5l5.5-2.7M2.5 10.8L8 13.5l5.5-2.7" fill="none" stroke="currentColor" stroke-width="1.2"/>',
+    "MongoDB": '<path d="M8 1.5c-.5 2-3.5 4.5-3.5 7.5a3.5 3.5 0 0 0 7 0c0-3-3-5.5-3.5-7.5zm0 1v12" fill="none" stroke="currentColor" stroke-width="1.2"/>',
+    "MySQL": '<ellipse cx="8" cy="4" rx="5" ry="1.8" fill="none" stroke="currentColor" stroke-width="1.1"/><path d="M3 4v3.5c0 1 2.2 1.8 5 1.8s5-.8 5-1.8V4M3 7.5V11c0 1 2.2 1.8 5 1.8s5-.8 5-1.8V7.5" fill="none" stroke="currentColor" stroke-width="1.1"/><path d="M10 11.5l2 2m0-2l-2 2" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/>',
+    "AWS": '<path d="M5 11c1.8 1.2 4.2 1.2 6 0m.5-.5l.5 1-1 .3" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><path d="M4.5 9.5a2.5 2.5 0 0 1 4.8-1 2.8 2.8 0 0 1 4.2 2.5H4.5z" fill="none" stroke="currentColor" stroke-width="1.1"/>',
+    "Firebase": '<path d="M4 13.5L2.5 4.5l4 4.5L9 2l4.5 11.5H4z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>',
+}
+
+
 def stack_card():
     h = 260
     categories = [
         ("AI & AGENTIC SYSTEMS", ["LangChain", "LangGraph", "Ollama", "CrewAI", "RAG", "DeepEval", "LangSmith", "n8n"], TECH),
-        ("LANGUAGES & RUNTIMES", ["Python", "C++", "JavaScript", "TypeScript", "C#", "SQL", "Node.js"], STUDIO),
-        ("WEB, DATA & CLOUD", ["Next.js", "React", "MongoDB", "Redis", "MySQL", "Docker", "AWS", "Firebase"], LEARN),
+        ("LANGUAGES & RUNTIMES", ["Python", "C++", "TypeScript", "JavaScript", "C#", "SQL", "Node.js", "Git"], STUDIO),
+        ("WEB, DATA & CLOUD", ["Next.js", "React", "Docker", "Redis", "MongoDB", "MySQL", "AWS", "Firebase"], LEARN),
     ]
 
     cats_svg = []
-    col_w = (W - 80 - 2 * 20) / 3
+    # 3 symmetric columns
+    col_w = 252
+    col_gap = 22
+    margin_left = 40
+    pill_w = (col_w - 8) / 2  # 122px width per pill
+    pill_h = 28
+
     for ci, (cat_title, pills, accent) in enumerate(categories):
-        cx = 40 + ci * (col_w + 20)
+        cx = margin_left + ci * (col_w + col_gap)
         pill_tags = []
-        row_y = 112
+        row_y = 98
         pill_x = cx
         for pi, pill in enumerate(pills):
             if pi > 0 and pi % 2 == 0:
-                row_y += 32
+                row_y += 34
                 pill_x = cx
-            pill_tags.append(
-                f'<g transform="translate({pill_x} {row_y})">'
-                f'<rect width="{col_w / 2 - 4:.1f}" height="24" rx="6" fill="#e8e8e4"/>'
-                f'<text x="{(col_w / 2 - 4) / 2:.1f}" y="16" text-anchor="middle" font-family="{MONO}" '
-                f'font-size="11" fill="{INK_SOFT}">{escape(pill)}</text></g>'
-            )
-            pill_x += col_w / 2 + 2
+
+            icon_svg = TECH_ICONS.get(pill, '<circle cx="8" cy="8" r="4"/>')
+            pill_tags.append(f"""
+  <g transform="translate({pill_x:.1f} {row_y})">
+    <rect width="{pill_w:.1f}" height="{pill_h}" rx="7" fill="#ffffff" stroke="{RULE}" stroke-width="1"/>
+    <!-- Themed tech vector icon -->
+    <g transform="translate(8 6)" fill="{accent}" stroke="{accent}" color="{accent}">
+      <svg width="16" height="16" viewBox="0 0 16 16">{icon_svg}</svg>
+    </g>
+    <!-- Label -->
+    <text x="30" y="18" font-family="{SANS}" font-weight="600" font-size="11" fill="{INK}">{escape(pill)}</text>
+  </g>""")
+            pill_x += pill_w + 8
 
         cats_svg.append(f"""
-<g class="r" {d(4.5 + ci * 0.12)}>
-  <rect x="{cx}" y="74" width="6" height="6" rx="1.5" fill="{accent}"/>
-  <text x="{cx + 14}" y="80" font-family="{MONO}" font-size="11.5" letter-spacing="1" fill="{MUTED}">{cat_title}</text>
+<g class="f" {d(0.4 + ci * 0.12)}>
+  <rect x="{cx}" y="70" width="6" height="6" rx="1.5" fill="{accent}"/>
+  <text x="{cx + 14}" y="76" font-family="{MONO}" font-size="11.5" letter-spacing="1" fill="{MUTED}">{escape(cat_title)}</text>
   {''.join(pill_tags)}
 </g>
 """)
 
     body = f"""
 <rect width="{W}" height="{h}" rx="14" fill="{PAPER}"/>
-<text class="r" {d(4.2)} x="40" y="44" font-family="{SERIF}" font-size="28" fill="{INK}">Core capabilities &amp; <tspan font-style="italic">tooling</tspan></text>
+<text class="r" {d(0.2)} x="40" y="44" font-family="{SERIF}" font-size="28" fill="{INK}">Core capabilities &amp; <tspan font-style="italic">tooling</tspan></text>
 {''.join(cats_svg)}
 """
-    write("stack.svg", svg(W, h, body, ["serif", "serif-i", "mono", "sans"], "Core capabilities & tooling"))
+    write("stack.svg", svg(W, h, body, ["serif", "serif-i", "mono", "sans", "sans-b"], "Core capabilities & tooling"))
 
 
 if __name__ == "__main__":
