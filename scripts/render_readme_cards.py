@@ -352,9 +352,9 @@ def activity(data):
 # ---- 5 · repo cards -----------------------------------------------------------
 REPO_W, REPO_H = 880 / 3 - 8, 176
 REPOS = [
-    ("rocketride-server", "High-performance AI pipeline engine with C++ core and 50+ Python-extensible nodes.", "C++ · Python", TECH),
-    ("nasiko", "The Open Runtime for AI Agents: build, trace, and orchestrate autonomous systems.", "TypeScript", STUDIO),
-    ("AI-Video-Assistant", "Multimodal AI video assistant with semantic search, RAG pipelines & DeepEval.", "Python", LEARN),
+    ("clarityscript", "AI-powered code explainer transforming complex code into clear human-readable logic.", "Full-Stack · AI", TECH),
+    ("promptfill", "Lightweight, zero-dependency Python utility on PyPI to manage and format prompt templates.", "Python · PyPI", STUDIO),
+    ("AI-Video-Assistant", "Production-ready meeting assistant with multimodal RAG, semantic search and evals.", "Python · React", LEARN),
 ]
 
 
