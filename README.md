@@ -12,7 +12,7 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="./cards/title-stack-dark.svg" /><img src="./cards/title-stack-light.svg" width="100%" alt="Technical Stack" /></picture><br>
 <img src="./cards/stack.svg" width="100%" alt="Core capabilities and tooling" /><br>
 <picture><source media="(prefers-color-scheme: dark)" srcset="./cards/title-leetcode-dark.svg" /><img src="./cards/title-leetcode-light.svg" width="100%" alt="LeetCode & Problem Solving" /></picture><br>
-<a href="https://leetcode.com/_prathamshettigar-123" target="_blank" rel="noopener noreferrer"><img src="assets/leetcode-dashboard.svg" alt="LeetCode Dashboard" width="100%" /></a>
+<a href="https://leetcode.com/_prathamshettigar-123" target="_blank" rel="noopener noreferrer"><img src="./cards/leetcode.svg" width="100%" alt="LeetCode submissions in green" /></a>
 </div>
 
 <p align="center">
