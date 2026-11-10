@@ -44,31 +44,32 @@
 
 <!-- Left Column: Identity & Bio -->
 <g class="f" style="animation-delay:0.00s">
-  <rect class="live" x="48" y="49" width="8" height="8" rx="2" fill="#2f55ff"/>
-  <text x="66" y="57" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1" fill="#6e6e73">COMPUTER SCIENCE · ASPIRING AI ENGINEER</text>
+  <rect class="live" x="48" y="48" width="8" height="8" rx="2" fill="#2f55ff"/>
+  <text x="66" y="56" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" letter-spacing="1" fill="#6e6e73">COMPUTER SCIENCE · ASPIRING AI ENGINEER</text>
 </g>
 
-<text class="r" style="animation-delay:0.15s" x="44" y="180" font-family="'Instrument Serif', Georgia, serif" font-size="112" letter-spacing="-2.5" fill="#111111">Pratham</text>
-<text class="r" style="animation-delay:0.30s" x="44" y="278" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-size="112" letter-spacing="-2.5" fill="url(#shine)">Shettigar</text>
+<!-- Scaled name with guaranteed clearance against right terminal -->
+<text class="r" style="animation-delay:0.15s" x="44" y="152" font-family="'Instrument Serif', Georgia, serif" font-size="84" letter-spacing="-1.5" fill="#111111">Pratham</text>
+<text class="r" style="animation-delay:0.30s" x="44" y="234" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-size="84" letter-spacing="-1.5" fill="url(#shine)">Shettigar</text>
 
 <g class="r" style="animation-delay:0.55s">
-  <text x="48" y="324" font-family="Geist, system-ui, -apple-system, sans-serif" font-size="16.5" fill="#3a3a3c">I build AI systems that survive contact with production:</text><text x="48" y="349" font-family="Geist, system-ui, -apple-system, sans-serif" font-size="16.5" fill="#3a3a3c">agents, RAG pipelines, and full-stack systems.</text>
+  <text x="48" y="280" font-family="Geist, system-ui, -apple-system, sans-serif" font-size="15.5" fill="#3a3a3c">I build AI systems that survive contact with production:</text><text x="48" y="304" font-family="Geist, system-ui, -apple-system, sans-serif" font-size="15.5" fill="#3a3a3c">agents, RAG pipelines, and full-stack systems.</text>
 </g>
 
 <g class="f" style="animation-delay:0.80s">
-  <text x="48" y="396" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#111111">linkedin.com/in/prathamshettigar</text>
-  <text class="nu" x="310" y="396" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#2f55ff">&#8599;</text>
+  <text x="48" y="380" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#111111">linkedin.com/in/prathamshettigar</text>
+  <text class="nu" x="296" y="380" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#2f55ff">&#8599;</text>
 </g>
 
 <!-- Right Column: Interactive Terminal Preview -->
-<g class="r" style="animation-delay:0.35s" transform="translate(490 44)" filter="url(#soft-shadow)">
-  <rect width="345" height="332" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+<g class="r" style="animation-delay:0.35s" transform="translate(465 38)" filter="url(#soft-shadow)">
+  <rect width="375" height="344" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
   <!-- Titlebar -->
-  <line x1="0" y1="32" x2="345" y2="32" stroke="#21262d"/>
+  <line x1="0" y1="32" x2="375" y2="32" stroke="#21262d"/>
   <circle cx="16" cy="16" r="4.5" fill="#ff5f56"/>
-  <circle cx="32" cy="16" r="4.5" fill="#ffbd2e"/>
-  <circle cx="48" cy="16" r="4.5" fill="#27c93f"/>
-  <text x="172.5" y="20" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#7d8590">pratham@agent: ~/runtime</text>
+  <circle cx="30" cy="16" r="4.5" fill="#ffbd2e"/>
+  <circle cx="44" cy="16" r="4.5" fill="#27c93f"/>
+  <text x="187.5" y="20" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#7d8590">pratham@agent: ~/runtime</text>
 
   <!-- Terminal Content Lines -->
   <g font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5">
@@ -77,23 +78,23 @@
 
     <!-- Key values -->
     <g class="f" style="animation-delay:0.85s">
-      <text x="18" y="90" fill="#7d8590">&#x2502; <tspan fill="#7ee787">status</tspan>       <tspan fill="#e6edf3">: ready to ship</tspan></text>
-      <circle class="live" cx="248" cy="87" r="3" fill="#3fb950"/>
+      <text x="18" y="88" fill="#7d8590">&#x2502; <tspan fill="#7ee787">status</tspan>       <tspan fill="#e6edf3">: ready to ship</tspan></text>
+      <circle class="live" cx="248" cy="85" r="3" fill="#3fb950"/>
     </g>
 
-    <text class="f" style="animation-delay:1.05s" x="18" y="118" fill="#7d8590">&#x2502; <tspan fill="#7ee787">specialty</tspan>    <tspan fill="#e6edf3">: Agentic AI &amp; RAG</tspan></text>
-    <text class="f" style="animation-delay:1.25s" x="18" y="146" fill="#7d8590">&#x2502; <tspan fill="#7ee787">frameworks</tspan>   <tspan fill="#e6edf3">: LangGraph · Ollama</tspan></text>
-    <text class="f" style="animation-delay:1.45s" x="18" y="174" fill="#7d8590">&#x2502; <tspan fill="#7ee787">languages</tspan>    <tspan fill="#e6edf3">: Python · C++ · TS</tspan></text>
-    <text class="f" style="animation-delay:1.65s" x="18" y="202" fill="#7d8590">&#x2502; <tspan fill="#7ee787">fullstack</tspan>    <tspan fill="#e6edf3">: Next.js · Node · DBs</tspan></text>
-    <text class="f" style="animation-delay:1.85s" x="18" y="230" fill="#7d8590">&#x2502; <tspan fill="#7ee787">evals</tspan>        <tspan fill="#e6edf3">: DeepEval · LangSmith</tspan></text>
+    <text class="f" style="animation-delay:1.05s" x="18" y="114" fill="#7d8590">&#x2502; <tspan fill="#7ee787">specialty</tspan>    <tspan fill="#e6edf3">: Agentic AI &amp; RAG</tspan></text>
+    <text class="f" style="animation-delay:1.25s" x="18" y="140" fill="#7d8590">&#x2502; <tspan fill="#7ee787">frameworks</tspan>   <tspan fill="#e6edf3">: LangGraph · Ollama</tspan></text>
+    <text class="f" style="animation-delay:1.45s" x="18" y="166" fill="#7d8590">&#x2502; <tspan fill="#7ee787">languages</tspan>    <tspan fill="#e6edf3">: Python · C++ · TS</tspan></text>
+    <text class="f" style="animation-delay:1.65s" x="18" y="192" fill="#7d8590">&#x2502; <tspan fill="#7ee787">fullstack</tspan>    <tspan fill="#e6edf3">: Next.js · Node · DBs</tspan></text>
+    <text class="f" style="animation-delay:1.85s" x="18" y="218" fill="#7d8590">&#x2502; <tspan fill="#7ee787">evals</tspan>        <tspan fill="#e6edf3">: DeepEval · LangSmith</tspan></text>
 
     <!-- Divider & Metrics -->
-    <line class="f" style="animation-delay:2.05s" x1="18" y1="250" x2="327" y2="250" stroke="#21262d"/>
-    <text class="f" style="animation-delay:2.20s" x="18" y="274" fill="#7d8590">&#x25C6; <tspan fill="#e6edf3">1.4k+ commits</tspan>  <tspan fill="#30363d">&#x2502;</tspan>  <tspan fill="#e6edf3">210+ LeetCode</tspan></text>
+    <line class="f" style="animation-delay:2.05s" x1="18" y1="238" x2="357" y2="238" stroke="#21262d"/>
+    <text class="f" style="animation-delay:2.20s" x="18" y="264" fill="#7d8590">&#x25C6; <tspan fill="#e6edf3">1.4k+ commits</tspan>  <tspan fill="#30363d">&#x2502;</tspan>  <tspan fill="#e6edf3">210+ LeetCode</tspan></text>
     
     <!-- Active prompt + blinking cursor -->
-    <text class="f" style="animation-delay:2.40s" x="18" y="306" fill="#58a6ff">&gt; <tspan fill="#e6edf3">awaiting_connection</tspan></text>
-    <rect class="live" x="182" y="295" width="7" height="13" fill="#58a6ff"/>
+    <text class="f" style="animation-delay:2.40s" x="18" y="300" fill="#58a6ff">&gt; <tspan fill="#e6edf3">awaiting_input</tspan></text>
+    <rect class="live" x="156" y="289" width="7" height="13" fill="#58a6ff"/>
   </g>
 </g>
 </svg>

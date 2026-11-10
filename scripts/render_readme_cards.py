@@ -142,8 +142,8 @@ def text_lines(x, y, lines, lh, attrs):
 # ---- 1 · hero -----------------------------------------------------------------
 def hero():
     h = 420
-    # Right-side embedded terminal pane
-    tx, ty, tw, th = 490, 44, 345, 332
+    # Right-side embedded terminal pane - positioned with clean margin
+    tx, ty, tw, th = 465, 38, 375, 344
     body = f"""
 <defs>
   <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0">
@@ -162,23 +162,24 @@ def hero():
 
 <!-- Left Column: Identity & Bio -->
 <g class="f" {d(0)}>
-  <rect class="live" x="48" y="49" width="8" height="8" rx="2" fill="{TECH}"/>
-  <text x="66" y="57" font-family="{MONO}" font-size="12" letter-spacing="1" fill="{MUTED}">COMPUTER SCIENCE · ASPIRING AI ENGINEER</text>
+  <rect class="live" x="48" y="48" width="8" height="8" rx="2" fill="{TECH}"/>
+  <text x="66" y="56" font-family="{MONO}" font-size="11.5" letter-spacing="1" fill="{MUTED}">COMPUTER SCIENCE · ASPIRING AI ENGINEER</text>
 </g>
 
-<text class="r" {d(0.15)} x="44" y="180" font-family="{SERIF}" font-size="112" letter-spacing="-2.5" fill="{INK}">Pratham</text>
-<text class="r" {d(0.3)} x="44" y="278" font-family="{SERIF}" font-style="italic" font-size="112" letter-spacing="-2.5" fill="url(#shine)">Shettigar</text>
+<!-- Scaled name with guaranteed clearance against right terminal -->
+<text class="r" {d(0.15)} x="44" y="152" font-family="{SERIF}" font-size="84" letter-spacing="-1.5" fill="{INK}">Pratham</text>
+<text class="r" {d(0.3)} x="44" y="234" font-family="{SERIF}" font-style="italic" font-size="84" letter-spacing="-1.5" fill="url(#shine)">Shettigar</text>
 
 <g class="r" {d(0.55)}>
-  {text_lines(48, 324, [
+  {text_lines(48, 280, [
       "I build AI systems that survive contact with production:",
       "agents, RAG pipelines, and full-stack systems."
-  ], 25, f'font-family="{SANS}" font-size="16.5" fill="{INK_SOFT}"')}
+  ], 24, f'font-family="{SANS}" font-size="15.5" fill="{INK_SOFT}"')}
 </g>
 
 <g class="f" {d(0.8)}>
-  <text x="48" y="396" font-family="{MONO}" font-size="13" fill="{INK}">linkedin.com/in/prathamshettigar</text>
-  <text class="nu" x="310" y="396" font-family="{MONO}" font-size="13" fill="{TECH}">&#8599;</text>
+  <text x="48" y="380" font-family="{MONO}" font-size="12.5" fill="{INK}">linkedin.com/in/prathamshettigar</text>
+  <text class="nu" x="296" y="380" font-family="{MONO}" font-size="12.5" fill="{TECH}">&#8599;</text>
 </g>
 
 <!-- Right Column: Interactive Terminal Preview -->
@@ -187,8 +188,8 @@ def hero():
   <!-- Titlebar -->
   <line x1="0" y1="32" x2="{tw}" y2="32" stroke="#21262d"/>
   <circle cx="16" cy="16" r="4.5" fill="#ff5f56"/>
-  <circle cx="32" cy="16" r="4.5" fill="#ffbd2e"/>
-  <circle cx="48" cy="16" r="4.5" fill="#27c93f"/>
+  <circle cx="30" cy="16" r="4.5" fill="#ffbd2e"/>
+  <circle cx="44" cy="16" r="4.5" fill="#27c93f"/>
   <text x="{tw / 2}" y="20" text-anchor="middle" font-family="{MONO}" font-size="11" fill="#7d8590">pratham@agent: ~/runtime</text>
 
   <!-- Terminal Content Lines -->
@@ -198,23 +199,23 @@ def hero():
 
     <!-- Key values -->
     <g class="f" {d(0.85)}>
-      <text x="18" y="90" fill="#7d8590">&#x2502; <tspan fill="#7ee787">status</tspan>       <tspan fill="#e6edf3">: ready to ship</tspan></text>
-      <circle class="live" cx="248" cy="87" r="3" fill="#3fb950"/>
+      <text x="18" y="88" fill="#7d8590">&#x2502; <tspan fill="#7ee787">status</tspan>       <tspan fill="#e6edf3">: ready to ship</tspan></text>
+      <circle class="live" cx="248" cy="85" r="3" fill="#3fb950"/>
     </g>
 
-    <text class="f" {d(1.05)} x="18" y="118" fill="#7d8590">&#x2502; <tspan fill="#7ee787">specialty</tspan>    <tspan fill="#e6edf3">: Agentic AI &amp; RAG</tspan></text>
-    <text class="f" {d(1.25)} x="18" y="146" fill="#7d8590">&#x2502; <tspan fill="#7ee787">frameworks</tspan>   <tspan fill="#e6edf3">: LangGraph · Ollama</tspan></text>
-    <text class="f" {d(1.45)} x="18" y="174" fill="#7d8590">&#x2502; <tspan fill="#7ee787">languages</tspan>    <tspan fill="#e6edf3">: Python · C++ · TS</tspan></text>
-    <text class="f" {d(1.65)} x="18" y="202" fill="#7d8590">&#x2502; <tspan fill="#7ee787">fullstack</tspan>    <tspan fill="#e6edf3">: Next.js · Node · DBs</tspan></text>
-    <text class="f" {d(1.85)} x="18" y="230" fill="#7d8590">&#x2502; <tspan fill="#7ee787">evals</tspan>        <tspan fill="#e6edf3">: DeepEval · LangSmith</tspan></text>
+    <text class="f" {d(1.05)} x="18" y="114" fill="#7d8590">&#x2502; <tspan fill="#7ee787">specialty</tspan>    <tspan fill="#e6edf3">: Agentic AI &amp; RAG</tspan></text>
+    <text class="f" {d(1.25)} x="18" y="140" fill="#7d8590">&#x2502; <tspan fill="#7ee787">frameworks</tspan>   <tspan fill="#e6edf3">: LangGraph · Ollama</tspan></text>
+    <text class="f" {d(1.45)} x="18" y="166" fill="#7d8590">&#x2502; <tspan fill="#7ee787">languages</tspan>    <tspan fill="#e6edf3">: Python · C++ · TS</tspan></text>
+    <text class="f" {d(1.65)} x="18" y="192" fill="#7d8590">&#x2502; <tspan fill="#7ee787">fullstack</tspan>    <tspan fill="#e6edf3">: Next.js · Node · DBs</tspan></text>
+    <text class="f" {d(1.85)} x="18" y="218" fill="#7d8590">&#x2502; <tspan fill="#7ee787">evals</tspan>        <tspan fill="#e6edf3">: DeepEval · LangSmith</tspan></text>
 
     <!-- Divider & Metrics -->
-    <line class="f" {d(2.05)} x1="18" y1="250" x2="{tw - 18}" y2="250" stroke="#21262d"/>
-    <text class="f" {d(2.2)} x="18" y="274" fill="#7d8590">&#x25C6; <tspan fill="#e6edf3">1.4k+ commits</tspan>  <tspan fill="#30363d">&#x2502;</tspan>  <tspan fill="#e6edf3">210+ LeetCode</tspan></text>
+    <line class="f" {d(2.05)} x1="18" y1="238" x2="{tw - 18}" y2="238" stroke="#21262d"/>
+    <text class="f" {d(2.2)} x="18" y="264" fill="#7d8590">&#x25C6; <tspan fill="#e6edf3">1.4k+ commits</tspan>  <tspan fill="#30363d">&#x2502;</tspan>  <tspan fill="#e6edf3">210+ LeetCode</tspan></text>
     
     <!-- Active prompt + blinking cursor -->
-    <text class="f" {d(2.4)} x="18" y="306" fill="#58a6ff">&gt; <tspan fill="#e6edf3">awaiting_connection</tspan></text>
-    <rect class="live" x="182" y="295" width="7" height="13" fill="#58a6ff"/>
+    <text class="f" {d(2.4)} x="18" y="300" fill="#58a6ff">&gt; <tspan fill="#e6edf3">awaiting_input</tspan></text>
+    <rect class="live" x="156" y="289" width="7" height="13" fill="#58a6ff"/>
   </g>
 </g>
 """
@@ -223,14 +224,13 @@ def hero():
 
 
 # ---- 2 · world tiles ----------------------------------------------------------
-TILE_W, TILE_H = 880 / 3 - 8, 210
+TILE_W, TILE_H = 880 / 3 - 8, 216
 
 
 def count_up(num, word, x, y, attrs, begin, dur=1.1, frames=18):
     """Number counts up with SMIL <set> frames (works inside <img>), easing out."""
     m = re.match(r"([\d.]+)(.*)", num)
     if not m:
-        # Fallback if no numeric value
         tail = f' <tspan font-style="italic">{escape(word)}</tspan>'
         return f'<text x="{x}" y="{y}" {attrs}>{escape(num)}{tail}</text>'
     val, suf = float(m.group(1)), m.group(2)
@@ -252,8 +252,8 @@ def count_up(num, word, x, y, attrs, begin, dur=1.1, frames=18):
 def tile(name, label, color, on, num, word, blurb, delay, pos):
     lines = wrap(blurb, 34)
     blurb_svg = "".join(
-        f'<text class="r" {d(delay + 0.75 + i * 0.1)} x="24" y="{150 + i * 20}" font-family="{SANS}" '
-        f'font-size="14" fill="{on}" opacity=".92">{escape(l)}</text>'
+        f'<text class="r" {d(delay + 0.75 + i * 0.1)} x="24" y="{148 + i * 19}" font-family="{SANS}" '
+        f'font-size="13.5" fill="{on}" opacity=".92">{escape(l)}</text>'
         for i, l in enumerate(lines)
     )
     body = f"""
@@ -272,7 +272,7 @@ def tile(name, label, color, on, num, word, blurb, delay, pos):
   <text class="sl" {d(delay + 0.35)} x="24" y="38" font-family="{MONO}" font-size="12" letter-spacing="1.2" fill="{on}">{label}</text>
   <g class="ai" {d(delay + 0.5)}><text class="n" style="animation-delay:{delay + 1.3:.2f}s" x="250" y="38" font-family="{MONO}" font-size="14" fill="{on}">&#8594;</text></g>
   <g clip-path="url(#slot-{name})"><g class="ro" {d(delay + 0.45)}>
-    {count_up(num, word, 22, 112, f'font-family="{SERIF}" font-size="44" fill="{on}"', delay + 0.45)}
+    {count_up(num, word, 22, 110, f'font-family="{SERIF}" font-size="42" fill="{on}"', delay + 0.45)}
   </g></g>
   {blurb_svg}
 </g>
@@ -408,9 +408,9 @@ def repo_card(i, name, desc, lang, color, stars=0):
 <rect width="{REPO_W}" height="{REPO_H}" rx="14" fill="{PAPER}"/>
 <g class="r" {d(delay)}>
   <rect x="24" y="30" width="8" height="8" rx="2" fill="{color}"/>
-  <text x="40" y="39" font-family="{SANS}" font-weight="600" font-size="18" fill="{INK}">{escape(name)}</text>
-  {text_lines(24, 72, wrap(desc, 34), 21, f'font-family="{SANS}" font-size="14" fill="{INK_SOFT}"')}
-  <text x="24" y="{REPO_H - 24}" font-family="{MONO}" font-size="12" fill="{MUTED}">{escape(meta)}</text>
+  <text x="40" y="39" font-family="{SANS}" font-weight="600" font-size="17" fill="{INK}">{escape(name)}</text>
+  {text_lines(24, 72, wrap(desc, 34), 21, f'font-family="{SANS}" font-size="13.5" fill="{INK_SOFT}"')}
+  <text x="24" y="{REPO_H - 24}" font-family="{MONO}" font-size="11.5" fill="{MUTED}">{escape(meta)}</text>
 </g>
 """
     write(f"repo-{name}.svg", svg(REPO_W, REPO_H, body, ["sans", "sans-b", "mono"], f"{name}: {desc}",
@@ -418,7 +418,7 @@ def repo_card(i, name, desc, lang, color, stars=0):
 
 
 # ---- 6 · section titles -------------------------------------------------------
-def section_title(prefix, slug, text, italic, theme):
+def section_title(slug, text, italic, theme):
     fg = "#e6edf3" if theme == "dark" else INK
     body = (
         f'<text class="r" {d(4.4)} x="2" y="46" font-family="{SERIF}" font-size="34" fill="{fg}">{escape(text)} '
@@ -429,7 +429,7 @@ def section_title(prefix, slug, text, italic, theme):
 
 # ---- 7 · skills & stack card --------------------------------------------------
 def stack_card():
-    h = 240
+    h = 260
     categories = [
         ("AI & AGENTIC SYSTEMS", ["LangChain", "LangGraph", "Ollama", "CrewAI", "RAG", "DeepEval", "LangSmith", "n8n"], TECH),
         ("LANGUAGES & RUNTIMES", ["Python", "C++", "JavaScript", "TypeScript", "C#", "SQL", "Node.js"], STUDIO),
@@ -441,12 +441,11 @@ def stack_card():
     for ci, (cat_title, pills, accent) in enumerate(categories):
         cx = 40 + ci * (col_w + 20)
         pill_tags = []
-        # render pills in 2 per row
-        row_y = 110
+        row_y = 112
         pill_x = cx
         for pi, pill in enumerate(pills):
             if pi > 0 and pi % 2 == 0:
-                row_y += 30
+                row_y += 32
                 pill_x = cx
             pill_tags.append(
                 f'<g transform="translate({pill_x} {row_y})">'
@@ -458,8 +457,8 @@ def stack_card():
 
         cats_svg.append(f"""
 <g class="r" {d(4.5 + ci * 0.12)}>
-  <rect x="{cx}" y="70" width="6" height="6" rx="1.5" fill="{accent}"/>
-  <text x="{cx + 14}" y="76" font-family="{MONO}" font-size="11.5" letter-spacing="1" fill="{MUTED}">{cat_title}</text>
+  <rect x="{cx}" y="74" width="6" height="6" rx="1.5" fill="{accent}"/>
+  <text x="{cx + 14}" y="80" font-family="{MONO}" font-size="11.5" letter-spacing="1" fill="{MUTED}">{cat_title}</text>
   {''.join(pill_tags)}
 </g>
 """)
@@ -484,12 +483,11 @@ if __name__ == "__main__":
     activity(data)
     for i, (name, desc, lang, color) in enumerate(REPOS):
         repo_card(i, name, desc, lang, color, 0)
-    section_title("What I'm", "coding", "Featured", "projects", "dark")
-    section_title("What I'm", "coding", "Featured", "projects", "light")
-    section_title("Technical", "stack", "Core", "capabilities", "dark")
-    section_title("Technical", "stack", "Core", "capabilities", "light")
-    section_title("Problem", "leetcode", "LeetCode", "problem solving", "dark")
-    section_title("Problem", "leetcode", "LeetCode", "problem solving", "light")
+    section_title("coding", "Featured", "projects", "dark")
+    section_title("coding", "Featured", "projects", "light")
+    section_title("stack", "Core", "capabilities", "dark")
+    section_title("stack", "Core", "capabilities", "light")
+    section_title("leetcode", "LeetCode &", "problem solving", "dark")
+    section_title("leetcode", "LeetCode &", "problem solving", "light")
     heatmap(data)
     stack_card()
-

@@ -1,6 +1,6 @@
 name: Update profile art
 
-# Refreshes the contribution graph, heatmap, activity cards, and stats daily from real data.
+# Refreshes the contribution graph, heatmap, activity cards, and LeetCode stats daily from real data.
 # Runs daily, plus whenever you push to main, plus on-demand.
 
 "on":
@@ -31,12 +31,16 @@ jobs:
         env:
           GH_PROFILE_USER: "shettigarpratham6-web"
 
-      - name: Render README cards (hero, tiles, activity, repos, blue graph)
+      - name: Render README cards (hero, tiles, activity, repos, blue graph, stack)
         run: python scripts/render_readme_cards.py
+
+      - name: Render LeetCode dashboard
+        run: python scripts/generate_leetcode_svg.py
+        env:
+          LEETCODE_USERNAME: "_prathamshettigar-123"
 
       - name: Commit updated art
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh profile art [skip ci]"
-          file_pattern: "data/contributions.json cards/*.svg"
-
+          file_pattern: "data/contributions.json cards/*.svg assets/leetcode-dashboard.svg"
