@@ -141,11 +141,7 @@ def text_lines(x, y, lines, lh, attrs):
 
 # ---- 1 · hero -----------------------------------------------------------------
 def hero():
-    h = 420
-    # Right-side embedded terminal pane coordinates
-    # IMPORTANT: Never attach CSS animations with 'transform' to an SVG element with transform="translate(...)".
-    # We use an unstyled outer <g transform="..."> so position is strictly immutable.
-    tx, ty, tw, th = 470, 38, 368, 344
+    h = 410
     body = f"""
 <defs>
   <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0">
@@ -155,72 +151,29 @@ def hero():
     <animateTransform attributeName="gradientTransform" type="translate" values="-600 0;600 0;600 0"
       keyTimes="0;.45;1" dur="7s" begin="1.6s" repeatCount="indefinite"/>
   </linearGradient>
-  <filter id="soft-shadow" x="-5%" y="-5%" width="110%" height="110%">
-    <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000" flood-opacity="0.08"/>
-  </filter>
 </defs>
 
 <rect width="{W}" height="{h}" rx="14" fill="{PAPER}"/>
 
-<!-- Left Column: Identity & Bio -->
+<!-- Identity & Bio -->
 <g class="f" {d(0)}>
   <rect class="live" x="48" y="48" width="8" height="8" rx="2" fill="{TECH}"/>
-  <text x="66" y="56" font-family="{MONO}" font-size="11.5" letter-spacing="1" fill="{MUTED}">COMPUTER SCIENCE · ASPIRING AI ENGINEER</text>
+  <text x="66" y="56" font-family="{MONO}" font-size="12" letter-spacing="1" fill="{MUTED}">COMPUTER SCIENCE · ASPIRING AI ENGINEER</text>
 </g>
 
-<!-- Scaled name with 120px+ guaranteed clearance against right terminal -->
-<text class="r" {d(0.15)} x="48" y="152" font-family="{SERIF}" font-size="82" letter-spacing="-1.5" fill="{INK}">Pratham</text>
-<text class="r" {d(0.3)} x="48" y="232" font-family="{SERIF}" font-style="italic" font-size="82" letter-spacing="-1.5" fill="url(#shine)">Shettigar</text>
+<text class="r" {d(0.15)} x="48" y="165" font-family="{SERIF}" font-size="108" letter-spacing="-2.5" fill="{INK}">Pratham</text>
+<text class="r" {d(0.3)} x="48" y="260" font-family="{SERIF}" font-style="italic" font-size="108" letter-spacing="-2.5" fill="url(#shine)">Shettigar</text>
 
 <g class="r" {d(0.55)}>
-  {text_lines(48, 278, [
+  {text_lines(48, 312, [
       "I build AI systems that survive contact with production:",
       "agents, RAG pipelines, and full-stack systems."
-  ], 24, f'font-family="{SANS}" font-size="15" fill="{INK_SOFT}"')}
+  ], 26, f'font-family="{SANS}" font-size="17.5" fill="{INK_SOFT}"')}
 </g>
 
 <g class="f" {d(0.8)}>
-  <text x="48" y="380" font-family="{MONO}" font-size="12.5" fill="{INK}">linkedin.com/in/prathamshettigar</text>
-  <text class="nu" x="296" y="380" font-family="{MONO}" font-size="12.5" fill="{TECH}">&#8599;</text>
-</g>
-
-<!-- Right Column: Interactive Terminal Pane (Permanently anchored at tx={tx}) -->
-<g transform="translate({tx} {ty})">
-  <g class="f" {d(0.35)} filter="url(#soft-shadow)">
-    <rect width="{tw}" height="{th}" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
-    <!-- Titlebar -->
-    <line x1="0" y1="32" x2="{tw}" y2="32" stroke="#21262d"/>
-    <circle cx="16" cy="16" r="4.5" fill="#ff5f56"/>
-    <circle cx="30" cy="16" r="4.5" fill="#ffbd2e"/>
-    <circle cx="44" cy="16" r="4.5" fill="#27c93f"/>
-    <text x="{tw / 2}" y="20" text-anchor="middle" font-family="{MONO}" font-size="11" fill="#7d8590">pratham@agent: ~/runtime</text>
-
-    <!-- Terminal Content Lines -->
-    <g font-family="{MONO}" font-size="11.5">
-      <!-- Prompt line -->
-      <text class="f" {d(0.6)} x="18" y="58" fill="#58a6ff">&gt; <tspan fill="#e6edf3">run</tspan> <tspan fill="#79c0ff">--target</tspan> <tspan fill="#a5d6ff">production</tspan></text>
-
-      <!-- Key values -->
-      <g class="f" {d(0.85)}>
-        <text x="18" y="88" fill="#7d8590">&#x2502; <tspan fill="#7ee787">status</tspan>       <tspan fill="#e6edf3">: ready to ship</tspan></text>
-        <circle class="live" cx="248" cy="85" r="3" fill="#3fb950"/>
-      </g>
-
-      <text class="f" {d(1.05)} x="18" y="114" fill="#7d8590">&#x2502; <tspan fill="#7ee787">specialty</tspan>    <tspan fill="#e6edf3">: Agentic AI &amp; RAG</tspan></text>
-      <text class="f" {d(1.25)} x="18" y="140" fill="#7d8590">&#x2502; <tspan fill="#7ee787">frameworks</tspan>   <tspan fill="#e6edf3">: LangGraph · Ollama</tspan></text>
-      <text class="f" {d(1.45)} x="18" y="166" fill="#7d8590">&#x2502; <tspan fill="#7ee787">languages</tspan>    <tspan fill="#e6edf3">: Python · C++ · TS</tspan></text>
-      <text class="f" {d(1.65)} x="18" y="192" fill="#7d8590">&#x2502; <tspan fill="#7ee787">fullstack</tspan>    <tspan fill="#e6edf3">: Next.js · Node · DBs</tspan></text>
-      <text class="f" {d(1.85)} x="18" y="218" fill="#7d8590">&#x2502; <tspan fill="#7ee787">evals</tspan>        <tspan fill="#e6edf3">: DeepEval · LangSmith</tspan></text>
-
-      <!-- Divider & Metrics -->
-      <line class="f" {d(2.05)} x1="18" y1="238" x2="{tw - 18}" y2="238" stroke="#21262d"/>
-      <text class="f" {d(2.2)} x="18" y="264" fill="#7d8590">&#x25C6; <tspan fill="#e6edf3">1.4k+ commits</tspan>  <tspan fill="#30363d">&#x2502;</tspan>  <tspan fill="#e6edf3">210+ LeetCode</tspan></text>
-      
-      <!-- Active prompt + blinking cursor -->
-      <text class="f" {d(2.4)} x="18" y="300" fill="#58a6ff">&gt; <tspan fill="#e6edf3">awaiting_input</tspan></text>
-      <rect class="live" x="156" y="289" width="7" height="13" fill="#58a6ff"/>
-    </g>
-  </g>
+  <text x="48" y="382" font-family="{MONO}" font-size="13" fill="{INK}">linkedin.com/in/prathamshettigar</text>
+  <text class="nu" x="312" y="382" font-family="{MONO}" font-size="13" fill="{TECH}">&#8599;</text>
 </g>
 """
     write("hero.svg", svg(W, h, body, ["serif", "serif-i", "sans", "mono"],
